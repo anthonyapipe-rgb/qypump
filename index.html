@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QY PUMPS | Industrial Centrifugal &amp; Submersible Pumps Manufacturer</title>
+<meta name="description" content="Professional manufacturer of centrifugal pumps and submersible pumps. OEM/ODM services, 20+ years experience, exported to 80+ countries.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E88E5'/%3E%3Cpath d='M6 22h20v4H6zM8 18c2.5-1.5 4-4 4-7 3.5.5 6.5-1 8-3-1 3 1 5.5 3.5 7-2 2.5-5.5 3.5-8.5 3z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --blue-900:#0A3D62; --blue-700:#0F5E9E; --blue-600:#1565C0; --blue-500:#1E88E5; --blue-400:#42A5F5; --blue-100:#E3F2FD; --blue-50:#F0F7FE;
+  --amber:#F59E0B; --amber-dark:#D97706;
+  --bg:#F5F9FE; --card:#FFFFFF; --ink:#12263A; --muted:#5A7184; --line:#DCE8F4;
+  --radius:14px; --shadow:0 6px 24px rgba(15,94,158,.08);
+  --font:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);color:var(--ink);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--blue-600);text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+/* ===== Header ===== */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.35rem;color:var(--blue-900);letter-spacing:.3px}
+.brand .logo{width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,var(--blue-500),var(--blue-700));display:flex;align-items:center;justify-content:center}
+.brand .logo svg{width:22px;height:22px}
+.brand small{display:block;font-size:.62rem;font-weight:600;letter-spacing:.18em;color:var(--muted)}
+.nav-links{display:flex;align-items:center;gap:6px}
+.nav-links a{padding:8px 14px;border-radius:8px;color:var(--ink);font-weight:500;font-size:.95rem}
+.nav-links a:hover,.nav-links a.active{background:var(--blue-50);color:var(--blue-700)}
+.nav-cta{margin-left:10px;background:var(--blue-600);color:#fff!important;padding:10px 18px!important;border-radius:9px;font-weight:600}
+.nav-cta:hover{background:var(--blue-700)}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:6px}
+.nav-toggle svg{width:26px;height:26px;stroke:var(--ink)}
+/* ===== Footer ===== */
+.site-footer{background:linear-gradient(180deg,#0F5E9E,#0A3D62);color:#D6E7F7;margin-top:70px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;padding:56px 0 40px}
+.footer-grid h4{color:#fff;font-size:1rem;margin-bottom:16px;letter-spacing:.4px}
+.footer-grid a{display:block;color:#C3D9EE;padding:4px 0;font-size:.92rem}
+.footer-grid a:hover{color:#fff}
+.footer-grid p{font-size:.92rem;color:#C3D9EE;margin-top:12px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.15);padding:18px 0;font-size:.85rem;color:#A9C6E2;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+/* ===== Buttons ===== */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:10px;font-weight:600;font-size:.98rem;border:none;cursor:pointer;transition:.2s}
+.btn svg{width:17px;height:17px}
+.btn-primary{background:var(--blue-600);color:#fff}
+.btn-primary:hover{background:var(--blue-700);transform:translateY(-1px)}
+.btn-accent{background:var(--amber);color:#fff}
+.btn-accent:hover{background:var(--amber-dark);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--blue-700);border:1.5px solid var(--blue-300)}
+.btn-ghost:hover{background:var(--blue-50)}
+/* ===== Page hero ===== */
+.page-hero{background:linear-gradient(135deg,var(--blue-100),#fff 55%,#FDEBC8);padding:60px 0 54px}
+.page-hero h1{font-size:2.4rem;color:var(--blue-900);letter-spacing:-.5px}
+.crumb{font-size:.85rem;color:var(--muted);margin-bottom:10px}
+.crumb a{color:var(--blue-600)}
+.crumb span{color:var(--muted)}
+.page-hero p{margin-top:10px;color:var(--blue-700);font-size:1.05rem;max-width:640px}
+/* ===== Home Hero ===== */
+.hero{background:linear-gradient(160deg,#E8F3FD 0%,#FFFFFF 55%,#FDF0DA 100%);overflow:hidden}
+.hero-inner{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;padding:84px 0 60px;align-items:center}
+.eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.22em;color:var(--blue-600);background:#fff;border:1px solid var(--blue-300);padding:6px 14px;border-radius:99px;margin-bottom:20px}
+.hero h1{font-size:3.1rem;line-height:1.15;color:var(--blue-900);letter-spacing:-1px}
+.hero h1 em{font-style:normal;color:var(--blue-500)}
+.hero-sub{margin-top:18px;font-size:1.08rem;color:var(--muted);max-width:560px}
+.hero-actions{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:56px;padding:26px 0}
+.stat b{display:block;font-size:1.9rem;color:var(--blue-700);letter-spacing:-.5px}
+.stat span{font-size:.8rem;letter-spacing:.1em;color:var(--muted);font-weight:600}
+.hero-visual{position:relative}
+.hero-visual .pump-card{background:#fff;border-radius:18px;box-shadow:0 18px 50px rgba(15,94,158,.16);padding:22px;border:1px solid var(--line)}
+.hero-visual .pump-card img{border-radius:12px;height:380px;object-fit:contain;background:linear-gradient(180deg,#F4F9FF,#EAF4FE)}
+.hero-visual .badge{position:absolute;top:18px;right:18px;background:var(--amber);color:#fff;font-weight:700;font-size:.78rem;padding:6px 12px;border-radius:99px}
+.hero-visual .badge2{position:absolute;bottom:16px;left:18px;background:var(--blue-900);color:#fff;font-size:.78rem;font-weight:600;padding:7px 13px;border-radius:9px}
+/* ===== Sections ===== */
+.section{padding:72px 0}
+.section-head{max-width:680px;margin-bottom:40px}
+.kicker{font-size:.78rem;font-weight:700;letter-spacing:.22em;color:var(--blue-500);text-transform:uppercase}
+.section-head h2{font-size:2.1rem;color:var(--blue-900);margin-top:8px;letter-spacing:-.4px}
+.section-head p{margin-top:10px;color:var(--muted)}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:.22s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card .ic{width:48px;height:48px;border-radius:12px;background:var(--blue-50);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.card .ic svg{width:25px;height:25px;stroke:var(--blue-600)}
+.card h3{font-size:1.06rem;color:var(--blue-900);margin-bottom:8px}
+.card p{font-size:.93rem;color:var(--muted)}
+.alt{background:linear-gradient(180deg,#fff,var(--blue-50))}
+/* Category preview */
+.cat-preview{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.cat-card{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#fff;transition:.22s;display:flex;flex-direction:column}
+.cat-card:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+.cat-card .imgwrap{height:230px;overflow:hidden;background:linear-gradient(180deg,#F4F9FF,#EAF4FE)}
+.cat-card .imgwrap img{width:100%;height:100%;object-fit:contain}
+.cat-card .body{padding:26px}
+.cat-card h3{font-size:1.3rem;color:var(--blue-900)}
+.cat-card p{color:var(--muted);margin:8px 0 16px;font-size:.95rem}
+.cat-card .chip{display:inline-block;background:var(--blue-50);color:var(--blue-700);font-size:.78rem;font-weight:600;padding:5px 12px;border-radius:99px;margin:2px 4px 2px 0}
+/* CTA band */
+.cta-band{background:linear-gradient(120deg,var(--blue-700),var(--blue-500));border-radius:20px;padding:54px;color:#fff;text-align:center;margin-top:20px}
+.cta-band h2{font-size:2rem;color:#fff}
+.cta-band p{color:#D6E7F7;margin:12px auto 26px;max-width:560px}
+.cta-band .btn-accent{font-size:1.05rem;padding:15px 32px}
+/* ===== Products list ===== */
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px;align-items:center}
+.filter-btn{padding:9px 20px;border-radius:99px;border:1.5px solid var(--blue-300);background:#fff;color:var(--blue-700);font-weight:600;font-size:.92rem;cursor:pointer;transition:.18s;font-family:var(--font)}
+.filter-btn:hover{border-color:var(--blue-500)}
+.filter-btn.active{background:var(--blue-600);color:#fff;border-color:var(--blue-600)}
+.search-box{margin-left:auto;position:relative}
+.search-box input{padding:10px 16px 10px 40px;border-radius:99px;border:1.5px solid var(--blue-300);font-family:var(--font);font-size:.92rem;width:250px;outline:none;background:#fff}
+.search-box input:focus{border-color:var(--blue-500)}
+.search-box svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:17px;height:17px;stroke:var(--muted)}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.pcard{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.22s;display:flex;flex-direction:column}
+.pcard:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+.pcard .thumb{height:205px;background:linear-gradient(180deg,#F6FAFF,#EAF4FE);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.pcard .thumb img{max-width:88%;max-height:88%;object-fit:contain;transition:.3s}
+.pcard:hover .thumb img{transform:scale(1.05)}
+.pcard .thumb .cat-tag{position:absolute;top:12px;left:12px;background:rgba(255,255,255,.92);color:var(--blue-700);font-size:.7rem;font-weight:700;letter-spacing:.08em;padding:4px 10px;border-radius:99px;border:1px solid var(--line)}
+.pcard .thumb .img-count{position:absolute;bottom:12px;right:12px;background:rgba(10,61,98,.85);color:#fff;font-size:.72rem;font-weight:600;padding:4px 9px;border-radius:99px}
+.pcard .pbody{padding:20px;display:flex;flex-direction:column;flex:1}
+.pcard h3{font-size:1.02rem;color:var(--blue-900);line-height:1.35}
+.pcard .spec-line{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 16px}
+.pcard .spec-line span{font-size:.74rem;background:var(--blue-50);color:var(--blue-700);padding:3px 9px;border-radius:7px;font-weight:600}
+.pcard .go{margin-top:auto;font-weight:600;color:var(--blue-600);font-size:.92rem;display:inline-flex;align-items:center;gap:6px}
+.empty{grid-column:1/-1;text-align:center;padding:60px 0;color:var(--muted)}
+/* ===== Detail ===== */
+.detail-top{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.gallery{position:sticky;top:96px}
+.main-img{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:linear-gradient(180deg,#F7FBFF,#EAF4FE);cursor:zoom-in;display:flex;align-items:center;justify-content:center;height:440px}
+.main-img img{max-width:94%;max-height:94%;object-fit:contain}
+.thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.thumbs button{width:84px;height:84px;border-radius:10px;border:2px solid var(--line);background:#fff;cursor:pointer;overflow:hidden;padding:4px;transition:.18s}
+.thumbs button img{width:100%;height:100%;object-fit:contain}
+.thumbs button.active,.thumbs button:hover{border-color:var(--blue-500)}
+.detail-info h1{font-size:1.9rem;color:var(--blue-900);line-height:1.3;letter-spacing:-.4px}
+.detail-tags{display:flex;gap:8px;margin:14px 0 18px;flex-wrap:wrap}
+.detail-tags .chip{background:var(--blue-600);color:#fff;font-size:.74rem;font-weight:700;letter-spacing:.1em;padding:5px 12px;border-radius:99px}
+.spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 24px}
+.spec-item{background:var(--blue-50);border-radius:11px;padding:12px 16px}
+.spec-item span{display:block;font-size:.72rem;letter-spacing:.12em;color:var(--muted);font-weight:600}
+.spec-item b{font-size:1.02rem;color:var(--blue-900);font-weight:600}
+.detail-actions{display:flex;gap:12px;flex-wrap:wrap}
+.desc-block{margin-top:56px}
+.desc-block h2{font-size:1.4rem;color:var(--blue-900);margin-bottom:14px;padding-bottom:12px;border-bottom:2px solid var(--blue-100)}
+.desc-block p{color:var(--muted);max-width:860px}
+.feat-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.feat-list li{list-style:none;display:flex;gap:9px;font-size:.93rem;color:var(--ink);align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 14px}
+.feat-list li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--amber);margin-top:7px;flex-shrink:0}
+.app-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:8px}
+.app-list li{list-style:none;background:var(--blue-50);color:var(--blue-700);font-weight:600;font-size:.85rem;padding:8px 15px;border-radius:99px}
+/* Model table */
+.model-table-wrap{margin-top:56px}
+.model-table-wrap h2{font-size:1.4rem;color:var(--blue-900);margin-bottom:8px}
+.model-note{font-size:.82rem;color:var(--muted);margin-bottom:16px}
+table.models{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.92rem}
+table.models th{background:var(--blue-700);color:#fff;text-align:left;padding:12px 16px;font-weight:600;font-size:.85rem;letter-spacing:.04em}
+table.models td{padding:11px 16px;border-top:1px solid var(--line);color:var(--ink)}
+table.models tbody tr:nth-child(even){background:var(--blue-50)}
+table.models tbody tr:hover{background:var(--blue-100)}
+/* ===== About ===== */
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+.about-grid h2{font-size:1.9rem;color:var(--blue-900);margin:8px 0 16px;letter-spacing:-.4px}
+.about-grid p{color:var(--muted);margin-bottom:16px}
+.cert-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:14px}
+.cert-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center}
+.cert-card b{display:block;font-size:1.15rem;color:var(--blue-700);letter-spacing:.5px}
+.cert-card span{font-size:.82rem;color:var(--muted);display:block;margin-top:4px}
+/* ===== Contact ===== */
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+.contact-item{display:flex;gap:16px;align-items:flex-start;margin-bottom:26px}
+.contact-item .ic{width:46px;height:46px;border-radius:12px;background:var(--blue-50);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.contact-item .ic svg{width:22px;height:22px;stroke:var(--blue-600)}
+.contact-item b{display:block;color:var(--blue-900);font-size:1rem}
+.contact-item span{color:var(--muted);font-size:.93rem}
+.form-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px;box-shadow:var(--shadow)}
+.form-card h2{color:var(--blue-900);font-size:1.4rem}
+.form-card .sub{color:var(--muted);font-size:.92rem;margin:6px 0 22px}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fgroup{margin-bottom:16px}
+.fgroup label{display:block;font-size:.85rem;font-weight:600;color:var(--blue-900);margin-bottom:6px}
+.fgroup input,.fgroup textarea{width:100%;padding:12px 14px;border:1.5px solid var(--blue-200);border-radius:10px;font-family:var(--font);font-size:.94rem;outline:none;background:var(--bg);color:var(--ink)}
+.fgroup input:focus,.fgroup textarea:focus{border-color:var(--blue-500);background:#fff}
+.fgroup textarea{min-height:110px;resize:vertical}
+.form-msg{padding:16px 20px;border-radius:11px;font-size:.94rem;margin-top:6px;display:none}
+.form-msg.ok{display:block;background:#E8F7EE;color:#1B7A3D;border:1px solid #BFE8CF}
+.form-msg.err{display:block;background:#FDECEC;color:#B3261E;border:1px solid #F5C6C6}
+/* Lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(6,28,48,.92);z-index:200;display:none;align-items:center;justify-content:center;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:92vh;border-radius:12px}
+.lightbox .close{position:absolute;top:22px;right:28px;color:#fff;font-size:2rem;cursor:pointer;line-height:1}
+/* Responsive */
+@media(max-width:1024px){
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .pgrid{grid-template-columns:repeat(2,1fr)}
+  .hero-inner{grid-template-columns:1fr;padding-top:56px}
+  .hero-visual{max-width:520px}
+  .detail-top{grid-template-columns:1fr}
+  .gallery{position:static}
+  .about-grid,.contact-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:700px){
+  .nav-links{position:fixed;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:14px 20px 22px;border-bottom:1px solid var(--line);display:none;box-shadow:0 12px 30px rgba(10,61,98,.12)}
+  .nav-links.open{display:flex}
+  .nav-toggle{display:block}
+  .nav-cta{margin-left:0;text-align:center}
+  .hero h1{font-size:2.2rem}
+  .hero-stats{grid-template-columns:repeat(2,1fr);gap:18px}
+  .grid-4,.grid-3,.pgrid,.cat-preview,.cert-grid{grid-template-columns:1fr}
+  .feat-list,.spec-grid,.frow{grid-template-columns:1fr}
+  .search-box{margin-left:0;width:100%}
+  .search-box input{width:100%}
+  .section{padding:52px 0}
+  .page-hero h1{font-size:1.9rem}
+  .cta-band{padding:38px 22px}
+  .footer-grid{grid-template-columns:1fr;gap:28px}
+  .main-img{height:320px}
+}
+</style>
+</head>
+<body>
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="#/home" class="brand" data-link>
+      <span class="logo"><svg viewBox="0 0 32 32" fill="none"><path d="M6 22h20v4H6zM8 18c2.5-1.5 4-4 4-7 3.5.5 6.5-1 8-3-1 3 1 5.5 3.5 7-2 2.5-5.5 3.5-8.5 3z" fill="white"/></svg></span>
+      <span>QY PUMPS<small>INDUSTRIAL PUMPS</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#/home" data-link>Home</a>
+      <a href="#/products" data-link>Products</a>
+      <a href="#/about" data-link>About Us</a>
+      <a href="#/contact" data-link>Contact</a>
+      <a href="#/contact" class="nav-cta" data-link>Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>QY PUMPS Industry</h4>
+        <p>Professional manufacturer of centrifugal and submersible pumps since 2003. Serving global B2B customers across 80+ countries with OEM/ODM support.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <a href="#/products" data-link>Centrifugal Pumps</a>
+        <a href="#/products" data-link>Submersible Pumps</a>
+        <a href="#/products" data-link>Fire Pump Systems</a>
+        <a href="#/products" data-link>Pump Control Cabinets</a>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#/home" data-link>Home</a>
+        <a href="#/about" data-link>About Us</a>
+        <a href="#/contact" data-link>Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: anthonya@qypumps.com</p>
+        <p>Phone / WhatsApp: +86 13456875813</p>
+        <p>No. 88 Industrial Avenue, Pump Manufacturing Zone, Yiwu, Zhejiang 322000, China</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 YIWU QY PUMPS CO., LTD. All rights reserved.</span>
+      <span>qypumps.com</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Lightbox ===== -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="close">&times;</span>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+/* ===== DATA ===== */
+const SITE = {
+  brand:"QY PUMPS",
+  email:"anthonya@qypumps.com",
+  phone:"+86 13456875813",
+  whatsapp:"+86 13456875813",
+  address:"No. 88 Industrial Avenue, Pump Manufacturing Zone, Yiwu, Zhejiang 322000, China"
+};
+const CATS = {
+  centrifugal:{name:"Centrifugal Pumps", desc:"Centrifugal pumps for industrial, municipal, chemical and fire protection applications", tagline:"End-suction, multistage, self-priming, sewage, fire & more"},
+  submersible:{name:"Submersible Pumps", desc:"Submersible pumps for sewage, drainage, deep well, slurry and mining applications", tagline:"Sewage, deep well, slurry, fountain, explosion-proof & more"}
+};
+
+const SERIES = [
+/* ================= CENTRIFUGAL ================= */
+{id:"zbfs-lbfs",name:"ZBFS / LBFS Stainless Steel Self-priming Pump",cat:"centrifugal",tag:"STAINLESS STEEL",materials:"Stainless Steel 304/316",spec:{size:"25-50 mm",flow:"4-26 m³/h",head:"10-31 m",power:"0.25-3 kW"},
+desc:"Compact stainless steel self-priming centrifugal pump for corrosive and hygienic liquid transfer. All-stainless construction suits food-grade and chemical applications.",
+feats:["All stainless steel wetted parts (SUS304 / SUS316L optional)","Self-priming capability up to 6 meters","Compact close-coupled design saves space","Mechanical seal for reliable leak-free operation","Smooth internal surfaces for hygienic applications","Available with single-phase or three-phase motor"],
+apps:["Food & Beverage","Pharmaceutical","Sewage Treatment","Chemical Industry","Water Treatment"],
+imgs:["https://aka.doubaocdn.com/s/57Op6KwDsL","https://aka.doubaocdn.com/s/MORo2OMD7r","https://aka.doubaocdn.com/s/TNrz6j7wca","https://aka.doubaocdn.com/s/ff7ybzbD46"],
+models:[["ZBFS20-12","4","12","0.25"],["ZBFS25-20","8","20","0.55"],["ZBFS32-25","12","25","1.1"],["ZBFS40-30","20","30","2.2"],["ZBFS50-31","26","31","3"]]},
+{id:"zw",name:"ZW Non-clogging Self-priming Sewage Pump",cat:"centrifugal",tag:"SELF-PRIMING",materials:"Cast Iron",spec:{size:"50-300 mm",flow:"8-800 m³/h",head:"7-60 m",power:"1.5-75 kW"},
+desc:"ZW series non-clogging self-priming sewage pump, no bottom valve required. Non-clog impeller handles solids and fibers; ideal for municipal and industrial wastewater.",
+feats:["No bottom valve required — self-priming to 5-8 meters","Non-clog impeller design handles solids and fibers","Back pull-out structure for easy maintenance","Double volute casing reduces radial forces","Optional mechanical seal or packing gland","Available in explosion-proof configuration"],
+apps:["Municipal Sewage","Engineering Drainage","Industrial Wastewater","Construction Sites","Sump Pumping"],
+imgs:["https://aka.doubaocdn.com/s/0CwoUv4Spg","https://aka.doubaocdn.com/s/0qK5Oy8I97"],
+models:[["ZW10-15","10","15","1.5"],["ZW20-20","20","20","2.2"],["ZW30-25","30","25","3"],["ZW50-30","50","30","5.5"],["ZW100-40","100","40","15"],["ZW200-50","200","50","37"],["ZW400-60","400","60","75"]]},
+{id:"zx",name:"ZX Series Self-priming Pump",cat:"centrifugal",tag:"BESTSELLER",materials:"Cast Iron / Stainless Steel",spec:{size:"25-200 mm",flow:"3.2-400 m³/h",head:"15-80 m",power:"1.1-55 kW"},
+desc:"ZX self-priming centrifugal pump with strong priming ability up to 8 meters. Compact integrated design with priming chamber, for clean water and mildly corrosive liquids.",
+feats:["Strong self-priming ability up to 8 meters","Compact integrated design with priming chamber","Balanced impeller for low vibration operation","Back pull-out design simplifies maintenance","Cast iron body with stainless steel impeller option","Suitable for clean water and mildly corrosive liquids"],
+apps:["Municipal Water Supply","Construction","Fire Protection","Chemical Industry","Cooling Water Systems"],
+imgs:["https://aka.doubaocdn.com/s/UcVGr0N6cp"],
+models:[["ZX25-32","3.2","32","1.1"],["ZX32-40","5","40","2.2"],["ZX50-50","12.5","50","5.5"],["ZX80-60","30","60","11"],["ZX100-70","60","70","22"],["ZX150-80","150","80","37"],["ZX200-80","400","80","55"]]},
+{id:"cyz",name:"CYZ Self-priming Centrifugal Oil Pump",cat:"centrifugal",tag:"OIL TRANSFER",materials:"Cast Iron / Bronze",spec:{size:"25-200 mm",flow:"3.2-400 m³/h",head:"15-80 m",power:"1.1-55 kW"},
+desc:"CYZ self-priming centrifugal oil pump with explosion-proof motor as standard. Bronze impeller reduces spark risk — safe for petroleum, fuel and marine transfer.",
+feats:["Explosion-proof motor as standard (ExdIIBT4)","Self-priming — no foot valve needed","Bronze impeller for reduced spark risk","Double mechanical seal with oil chamber","Suitable for media up to 80°C","Copper sealing faces for dry-run protection"],
+apps:["Oil Depots","Tank Trucks","Petroleum Transport","Fuel Stations","Marine Fuel Transfer"],
+imgs:["https://aka.doubaocdn.com/s/g2WU4COWjS"],
+models:[["CYZ25-32","3.2","32","1.1"],["CYZ32-40","5","40","2.2"],["CYZ50-50","12.5","50","5.5"],["CYZ80-60","30","60","11"],["CYZ100-70","60","70","22"],["CYZ150-80","150","80","37"]]},
+{id:"isg-isw",name:"ISG / ISW Pipeline Centrifugal Pump",cat:"centrifugal",tag:"BESTSELLER",materials:"Cast Iron / Bronze / SS",spec:{size:"15-350 mm",flow:"1.1-1200 m³/h",head:"3-150 m",power:"0.37-132 kW"},
+desc:"ISG (vertical) and ISW (horizontal) inline pipeline pumps — install directly in the pipeline like a valve. Wide range of sizes and materials; IE3 premium efficiency motor as standard.",
+feats:["Inline design — install directly in pipeline like a valve","Vertical (ISG) and horizontal (ISW) configurations","Back pull-out design for seal/motor service without removing pipework","Balanced impeller for smooth, quiet operation","Wide range of sizes and materials available","IE3 premium efficiency motor as standard"],
+apps:["Water Supply","HVAC Systems","Fire Fighting","Industrial Circulation","Booster Service"],
+imgs:["https://aka.doubaocdn.com/s/3stj4AiOeB","https://aka.doubaocdn.com/s/mDEVDf0aSN","https://aka.doubaocdn.com/s/xoODSwfPxx","https://aka.doubaocdn.com/s/J42f5VUae5"],
+models:[["ISG50-160","12.5","32","3"],["ISG65-125","25","20","3"],["ISG80-160","50","32","7.5"],["ISG100-125","100","20","11"],["ISG150-125","160","20","15"],["ISW100-160","100","32","15"],["ISW150-400","200","50","45"],["ISW200-500","400","80","132"]]},
+{id:"cdl-cdlf",name:"CDL / CDLF Vertical Multistage Centrifugal Pump",cat:"centrifugal",tag:"HIGH PRESSURE",materials:"Stainless Steel 304/316",spec:{size:"25-100 mm",flow:"2-120 m³/h",head:"15-250 m",power:"0.55-18.5 kW"},
+desc:"All-stainless vertical multistage pump (CDL cast, CDLF forged). Modular design configures exact head needed; ideal for boosting, boiler feed and RO systems.",
+feats:["All stainless steel construction (CDL cast, CDLF forged)","Modular multistage design — configure exact head needed","Vertical inline layout saves floor space","Balanced impellers for low vibration and noise","Cartridge-type mechanical seal for easy service","NSF/WRAS drinking water certified versions available"],
+apps:["Water Treatment","High-Rise Buildings","Boiler Feed","Pressure Boosting","Reverse Osmosis"],
+imgs:["https://aka.doubaocdn.com/s/OUvxBw8dBz","https://aka.doubaocdn.com/s/tZTXTS72WY"],
+models:[["CDLF2-40","2","40","0.55"],["CDLF4-60","4","60","1.1"],["CDLF8-80","8","80","2.2"],["CDLF16-100","16","100","5.5"],["CDLF32-120","32","120","11"],["CDLF45-150","45","150","15"],["CDLF65-200","65","200","18.5"]]},
+{id:"chm-chl",name:"CHM / CHL Horizontal Stainless Steel Multistage Pump",cat:"centrifugal",tag:"COMPACT",materials:"Stainless Steel 304/316",spec:{size:"25-50 mm",flow:"1-28 m³/h",head:"12-70 m",power:"0.25-4 kW"},
+desc:"Compact horizontal stainless steel multistage pump with close-coupled motor. Quiet, lightweight and easy to install — ideal for HVAC and water treatment.",
+feats:["Horizontal multistage design with low profile","Stainless steel pump body and impellers","Close-coupled motor for compact footprint","Quiet operation with balanced impellers","Mechanical seal with carbon/silicon carbide faces","Lightweight and easy to install"],
+apps:["Air Conditioning","Cooling Systems","Water Treatment","Pressure Boosting","Light Chemical Transfer"],
+imgs:["https://aka.doubaocdn.com/s/I6PnJW7mam","https://aka.doubaocdn.com/s/fqsY6nskrf","https://aka.doubaocdn.com/s/nnWuRRcaMh"],
+models:[["CHM2-20","2","20","0.25"],["CHM3-30","3","30","0.37"],["CHM5-40","5","40","0.75"],["CHM8-50","8","50","1.5"],["CHM12-60","12","60","2.2"],["CHM16-70","16","70","3"],["CHM28-70","28","70","4"]]},
+{id:"is-ih",name:"IS / IH Single Stage Centrifugal Pump",cat:"centrifugal",tag:"INDUSTRIAL",materials:"Cast Iron / Stainless Steel",spec:{size:"50-250 mm",flow:"12.5-400 m³/h",head:"12.5-80 m",power:"2.2-90 kW"},
+desc:"ISO 2858 standard single-stage centrifugal pump. IS = cast iron for water, IH = stainless steel for chemicals. Fully interchangeable with international standards.",
+feats:["ISO 2858 standard — fully interchangeable","Back pull-out design for easy maintenance","IS = cast iron for water; IH = stainless steel for chemicals","Flexible coupling with guard for operator safety","Wide range of seal options (packing, single, double mechanical)","Various material combinations to suit application"],
+apps:["Chemical Industry","Petroleum","Metallurgy","Light Industry","General Water Transfer"],
+imgs:["https://aka.doubaocdn.com/s/hWb0TbDVYG"],
+models:[["IS50-32-160","12.5","32","3"],["IS65-50-160","25","32","5.5"],["IS80-65-160","50","32","7.5"],["IS100-80-125","100","20","11"],["IS150-125-250","200","20","18.5"],["IS200-150-400","400","50","75"],["IS250-200-400","400","80","90"]]},
+{id:"yw",name:"YW Submerged Pump",cat:"centrifugal",tag:"SUBMERGED",materials:"Cast Iron / SS304 / SS316",spec:{size:"50-400 mm",flow:"8-1800 m³/h",head:"7-60 m",power:"0.75-250 kW"},
+desc:"YW long-shaft vertical submerged pump with motor above liquid — no submersible motor required. Non-clog impeller handles solids; adjustable immersion depth.",
+feats:["Motor above liquid — no submersible motor required","Vertical column design for deep sump installation","Non-clog impeller handles solids and fibers","Adjustable immersion depth (custom shaft lengths available)","Available in cast iron, 304 or 316 stainless steel","Optional double mechanical seal arrangement"],
+apps:["Sewage Pumping Stations","Industrial Wastewater","Sump Pits","Tank Emptying","Chemical Sumps"],
+imgs:["https://aka.doubaocdn.com/s/IvdAbDngkZ","https://aka.doubaocdn.com/s/GhOAAUvXWa","https://aka.doubaocdn.com/s/VhLfJMrZxq"],
+models:[["YW50-20","8","20","0.75"],["YW80-25","20","25","3"],["YW100-30","40","30","5.5"],["YW150-40","100","40","18.5"],["YW200-50","200","50","37"],["YW300-60","500","60","110"],["YW400-60","1800","60","250"]]},
+{id:"g-screw",name:"G Type Single Screw Pump",cat:"centrifugal",tag:"PROGRESSIVE CAVITY",materials:"Cast Iron / SS304 / SS316",spec:{size:"20-150 mm",flow:"0.8-150 m³/h",head:"0.6 MPa (60 m)",power:"0.75-55 kW"},
+desc:"Progressive cavity pump for high-viscosity media. Smooth pulsation-free discharge, self-priming up to 60 mWC, handles abrasive and solid-laden fluids gently.",
+feats:["Progressive cavity design for high-viscosity media","Smooth, pulsation-free discharge flow","Self-priming up to 60 mWC without auxiliary equipment","Handles abrasive and solid-laden fluids gently","Stator available in NBR, EPDM, FKM, natural rubber","Flow proportional to speed — easy to control via VFD"],
+apps:["Sludge Transfer","Molasses & Food Paste","Chemical Viscous Media","Mining Slurry","Paper Stock"],
+imgs:["https://aka.doubaocdn.com/s/evmLXj4cD6"],
+models:[["G25-1","0.8","60","0.75"],["G35-1","3","60","1.5"],["G40-1","8","60","3"],["G50-1","15","60","5.5"],["G70-1","30","60","11"],["G85-1","60","60","22"],["G105-1","150","60","55"]]},
+{id:"gw",name:"GW Pipeline Sewage Pump",cat:"centrifugal",tag:"PIPELINE",materials:"Cast Iron / SS Optional",spec:{size:"50-500 mm",flow:"8-2600 m³/h",head:"7-37 m",power:"1.1-250 kW"},
+desc:"GW vertical inline sewage pump installs directly in the pipeline. Non-clog impeller handles solids up to 70mm; vertical structure saves space.",
+feats:["Vertical inline design — install directly in pipeline","Non-clog impeller handles solids up to 70mm","Double volute casing for balanced hydraulic forces","Back pull-out design for seal/motor service","Wide range of sizes from small to very large","Optional explosion-proof motor available"],
+apps:["Chemical Industry","Petroleum","Mining","Municipal Drainage","Wastewater Treatment"],
+imgs:["https://aka.doubaocdn.com/s/38WmU2SL1l"],
+models:[["GW50-20","8","20","1.1"],["GW80-25","25","25","3"],["GW100-30","50","30","7.5"],["GW150-37","100","37","18.5"],["GW200-37","200","37","37"],["GW300-30","600","30","90"],["GW500-25","2600","25","250"]]},
+{id:"wl-lw",name:"WL / LW Vertical Sewage Pump",cat:"centrifugal",tag:"HEAVY DUTY",materials:"Cast Iron",spec:{size:"150-500 mm",flow:"100-2600 m³/h",head:"9-37 m",power:"11-250 kW"},
+desc:"WL/LW vertical volute sewage pump for large municipal and industrial wastewater. Double-flow impeller with large free passage; reliable for continuous duty in lift stations.",
+feats:["Double-flow impeller with large free passage","Large capacity — up to 2600 m³/h","Vertical volute casing for inline piping","Heavy-duty bearing assembly for long service life","Back pull-out design for maintenance","Suitable for continuous duty in lift stations"],
+apps:["Municipal Sewage","Industrial Wastewater","Wastewater Treatment Plants","Storm Water Pumping","Lift Stations"],
+imgs:["https://aka.doubaocdn.com/s/sTnZQYeryg"],
+models:[["WL150-20","100","20","11"],["WL200-25","200","25","22"],["WL250-30","400","30","55"],["WL300-35","600","35","90"],["WL400-37","1000","37","160"],["WL500-30","2600","30","250"]]},
+{id:"fsb",name:"FSB Fluoroplastic Centrifugal Pump",cat:"centrifugal",tag:"CORROSION RESISTANT",materials:"F46 Fluoroplastic",spec:{size:"25-100 mm",flow:"3.6-150 m³/h",head:"15-40 m",power:"1.5-30 kW"},
+desc:"FSB fluoroplastic centrifugal pump with F46 (FEP) wetted parts. Excellent corrosion resistance to strong acids, alkalis and corrosive chemicals — cost-effective chemical transfer.",
+feats:["F46 fluoroplastic wetted parts — excellent corrosion resistance","Metal shell with fluoroplastic liner for structural strength","Handles sulfuric acid, hydrochloric acid, aqua regia, and more","Mechanical seal with silicon carbide faces","Operating temperature range: -20°C to 120°C","Close-coupled or long-coupled options available"],
+apps:["Sulfuric / Hydrochloric Acid","Aqua Regia","Strong Corrosive Media","Chemical Processing","Surface Treatment"],
+imgs:["https://aka.doubaocdn.com/s/5RDUvRZp8R"],
+models:[["FSB25-20","3.6","20","1.5"],["FSB40-25","7.2","25","3"],["FSB50-30","12.5","30","5.5"],["FSB65-35","25","35","11"],["FSB80-40","50","40","18.5"],["FSB100-40","150","40","30"]]},
+{id:"ihf",name:"IHF Fluoroplastic Lined Centrifugal Pump",cat:"centrifugal",tag:"HEAVY DUTY",materials:"Metal Lined with F46/PFA",spec:{size:"25-250 mm",flow:"6.3-400 m³/h",head:"5-80 m",power:"0.55-90 kW"},
+desc:"IHF heavy-duty fluoroplastic lined centrifugal pump. Ductile iron shell fully lined with F46 or PFA combines structural strength with outstanding corrosion resistance.",
+feats:["Ductile iron shell fully lined with F46 or PFA","Withstands high pressures and thermal shock","Wide capacity range up to 400 m³/h and 80m head","Back pull-out design per ISO 2858 standards","External cartridge mechanical seal for easy service","Suitable for almost all corrosive chemicals"],
+apps:["Acid & Alkali Transfer","Strong Corrosive Chemicals","Pharmaceutical","Chlor-alkali Industry","Fine Chemicals"],
+imgs:["https://aka.doubaocdn.com/s/XQuyhqS7bN"],
+models:[["IHF25-20","6.3","20","1.1"],["IHF40-25","12.5","25","3"],["IHF50-30","25","30","5.5"],["IHF65-40","50","40","11"],["IHF80-50","100","50","22"],["IHF100-60","200","60","45"],["IHF150-80","400","80","90"]]},
+{id:"fzb",name:"FZB Fluoroplastic Self-priming Pump",cat:"centrifugal",tag:"SELF-PRIMING",materials:"F46 Fluoroplastic",spec:{size:"25-80 mm",flow:"3.6-100 m³/h",head:"20-45 m",power:"1.5-30 kW"},
+desc:"FZB combines fluoroplastic corrosion resistance with self-priming convenience. Ideal when the pump sits above the tank — no foot valve or external priming needed.",
+feats:["F46 fluoroplastic construction for corrosion resistance","Self-priming capability — no foot valve needed","Integral gas-liquid separation chamber","Mechanical seal with silicon carbide faces","Suitable for acids, alkalis, and oxidizing agents","Compact close-coupled design"],
+apps:["Chemical Processing","Pharmaceutical","Corrosive Media Transfer","Plating Solutions","Acid Handling"],
+imgs:["https://aka.doubaocdn.com/s/bQzyTd8hNE","https://aka.doubaocdn.com/s/qxyO7yMgqG"],
+models:[["FZB25-20","3.6","20","1.5"],["FZB40-25","7.2","25","3"],["FZB50-30","12.5","30","5.5"],["FZB65-35","25","35","11"],["FZB80-40","50","40","18.5"],["FZB80-45","100","45","30"]]},
+{id:"fp",name:"FP Corrosion-resistant Centrifugal Pump",cat:"centrifugal",tag:"ECONOMICAL",materials:"PP Polypropylene",spec:{size:"25-100 mm",flow:"4-100 m³/h",head:"11-32 m",power:"0.75-15 kW"},
+desc:"FP series PP (polypropylene) plastic corrosion-resistant centrifugal pump. All-plastic construction provides economical chemical resistance — a popular choice for plating and wastewater.",
+feats:["All-PP construction — economical corrosion resistance","Good resistance to acids, alkalis, and salts","Lightweight and easy to handle","Mechanical seal with ceramic/carbon faces","Operating temperature up to 80°C","Available with close-coupled motor"],
+apps:["Chemical Processing","Electroplating","Wastewater Treatment","Surface Finishing","Brine Solutions"],
+imgs:["https://aka.doubaocdn.com/s/ilbqN8vJkz","https://aka.doubaocdn.com/s/7fGpfwYhwU","https://aka.doubaocdn.com/s/olp7k7F1er","https://aka.doubaocdn.com/s/hmUoWzEy6w"],
+models:[["FP25-11","4","11","0.75"],["FP32-20","8","20","1.5"],["FP40-25","12.5","25","2.2"],["FP50-30","25","30","4"],["FP65-32","50","32","7.5"],["FP80-30","100","30","15"]]},
+{id:"s-sh",name:"S / SH Single-stage Double-suction Centrifugal Pump",cat:"centrifugal",tag:"LARGE FLOW",materials:"Cast Iron / Bronze",spec:{size:"150-800 mm",flow:"80-3170 m³/h",head:"10-125 m",power:"7.5-800 kW"},
+desc:"S/SH single-stage double-suction split-case pump for very large flow applications. Horizontally split casing allows easy rotor access; double-suction impeller balances thrust.",
+feats:["Double-suction impeller for high flow and balanced thrust","Horizontally split casing — top-half removable for service","High-efficiency hydraulic design","Heavy-duty bearing housings with oil lubrication","Available with packing or mechanical seal","Baseplate with coupling guard included"],
+apps:["Waterworks","Agricultural Irrigation","HVAC Circulation","Long-distance Water Transfer","Power Plant Cooling"],
+imgs:["https://aka.doubaocdn.com/s/aWKYXLJUrh"],
+models:[["S150-125","80","10","7.5"],["S200-150","120","20","15"],["S250-200","200","30","30"],["S300-250","300","40","55"],["S350-300","500","50","110"],["S500-400","1000","60","250"],["S700-500","3170","125","800"]]},
+{id:"nl",name:"NL Mud Pump",cat:"centrifugal",tag:"SLURRY",materials:"Cast Iron / Wear-resistant Alloy",spec:{size:"50-150 mm",flow:"20-200 m³/h",head:"9-18 m",power:"1.5-22 kW"},
+desc:"NL vertical mud pump for slurry, sand, solids-laden sewage and abrasive liquids. Open impeller and vertical cantilever design suit mud ponds and settling pits.",
+feats:["Vertical cantilever design — no submerged bearings","Open impeller handles solids and abrasives","Wear-resistant impeller and volute options","Motor above liquid level — no submersible motor","Various shaft lengths for different sump depths","Simple construction — easy to maintain"],
+apps:["Mining","Papermaking","Mud Ponds","Coal Mine Drainage","Sand Pumping"],
+imgs:["https://aka.doubaocdn.com/s/pOi5FLlR6P","https://aka.doubaocdn.com/s/DniuMmgNol"],
+models:[["NL50-9","20","9","1.5"],["NL65-12","40","12","3"],["NL80-15","60","15","5.5"],["NL100-18","100","18","11"],["NL125-18","150","18","15"],["NL150-15","200","15","22"]]},
+{id:"xbd-vertical",name:"XBD Vertical Multistage Fire Pump",cat:"centrifugal",tag:"FIRE CERTIFIED",materials:"Cast Iron / SS304",spec:{size:"50-200 mm",flow:"5-80 L/s",head:"20-160 m (0.2-1.6 MPa)",power:"5.5-160 kW"},
+desc:"XBD vertical multistage fire pump, fire-certified for building fire safety. High-pressure output for sprinkler systems, hydrants and fire protection applications.",
+feats:["NFPA / CCCF fire pump compliant design","Vertical multistage design for high pressure","Stainless steel impellers and diffusers","Continuous duty rated motor","Available with diesel engine drive option","Complete fire pump set with controller available"],
+apps:["Fire Protection Systems","Sprinkler Systems","Hydrant Systems","Pressurized Fire Water","Commercial Buildings"],
+imgs:["https://aka.doubaocdn.com/s/atWPrkiXVC","https://aka.doubaocdn.com/s/AVKLHSnIUY","https://aka.doubaocdn.com/s/4EK9yy9dVA"],
+models:[["XBD5/20-2.2","5","20","2.2"],["XBD10/40-4","10","40","4"],["XBD20/60-7.5","20","60","7.5"],["XBD30/80-11","30","80","11"],["XBD50/100-18.5","50","100","18.5"],["XBD80/160-37","80","160","37"]]},
+{id:"xbd-isw-isg",name:"XBD-ISW / ISG Fire Pump",cat:"centrifugal",tag:"FIRE CERTIFIED",materials:"Cast Iron / Bronze",spec:{size:"65-300 mm",flow:"5-100 L/s",head:"15-125 m (0.15-1.25 MPa)",power:"5.5-132 kW"},
+desc:"XBD-ISW (horizontal) and XBD-ISG (vertical) single-stage fire pumps based on the proven ISW/ISG pipeline platform, optimized and fire-certified.",
+feats:["Fire protection certified (CCCF / NFPA compliant)","Inline design for easy pipeline installation","Horizontal (ISW) and vertical (ISG) options","Bronze impeller for corrosion resistance","Continuous duty rated for fire service","Available as complete packaged fire pump set"],
+apps:["Building Fire Fighting","Industrial Water Supply","Sprinkler Systems","Fire Hydrant Systems","Commercial & Residential Buildings"],
+imgs:["https://aka.doubaocdn.com/s/iYDfgUa8f1"],
+models:[["XBD-ISW65-160","5","20","5.5"],["XBD-ISW80-160","10","20","7.5"],["XBD-ISW100-200","20","40","15"],["XBD-ISW125-250","30","50","30"],["XBD-ISG150-300","50","80","55"],["XBD-ISG200-400","100","125","132"]]},
+{id:"xbd-w",name:"XBD-W Horizontal Multistage Fire Pump",cat:"centrifugal",tag:"FIRE CERTIFIED",materials:"Cast Iron / Stainless Steel",spec:{size:"65-150 mm",flow:"5-45 L/s",head:"18-261 m (0.18-2.61 MPa)",power:"7.5-185 kW"},
+desc:"XBD-W horizontal ring-section multistage fire pump delivers very high pressure in a compact footprint. Up to 2.6 MPa for high-rise and high-pressure fire systems.",
+feats:["Ring-section multistage design for very high pressure","Fire protection certified construction","Up to 2.6 MPa discharge pressure","Balanced rotor assembly for smooth operation","Both suction and discharge on same centerline","Cartridge mechanical seal for serviceability"],
+apps:["Fire Protection Systems","High-Pressure Water Supply","High-Rise Buildings","Industrial Fire Fighting","Sprinkler Booster"],
+imgs:["https://aka.doubaocdn.com/s/UGALsQSgdv"],
+models:[["XBD-W5/18-7.5","5","18","7.5"],["XBD-W10/40-11","10","40","11"],["XBD-W15/80-22","15","80","22"],["XBD-W20/120-37","20","120","37"],["XBD-W30/180-75","30","180","75"],["XBD-W45/261-132","45","261","132"]]},
+{id:"nnp",name:"Non-negative Pressure Water Supply Equipment",cat:"centrifugal",tag:"COMPLETE SYSTEM",materials:"Stainless Steel",spec:{size:"Custom",flow:"Adjustable range",head:"Custom per project",power:"Variable — per pump selection"},
+desc:"Automatic VFD constant-pressure water supply system with stainless steel tank and smart control. Connects directly to city water mains without negative pressure or backflow risk.",
+feats:["No negative pressure — safe connection to city water mains","VFD-controlled constant pressure output","Stainless steel manifold and pressure tank","Duty/standby pump configuration for reliability","Touchscreen PLC controller with fault alarms","Remote monitoring and BMS integration options"],
+apps:["High-Rise Buildings","HVAC Systems","Pressurized Water Supply","Commercial Complexes","Schools & Hospitals"],
+imgs:["https://aka.doubaocdn.com/s/JMOC7e9eBz","https://aka.doubaocdn.com/s/M2kbiTHhfU","https://aka.doubaocdn.com/s/G4cuY9KyUf"],
+models:[["NNP 2xCDLF4","4×2","40","1.1"],["NNP 2xCDLF8","8×2","60","2.2"],["NNP 2xCDLF16","16×2","80","5.5"],["NNP 3xCDLF16","16×3","80","5.5"],["NNP 3xCDLF32","32×3","100","11"],["NNP 2xCDLF45","45×2","120","15"]]},
+/* ================= SUBMERSIBLE ================= */
+{id:"wq-qw",name:"WQ / QW Submersible Sewage Pump",cat:"submersible",tag:"BESTSELLER",materials:"Cast Iron / SS Optional",spec:{size:"50-600 mm",flow:"5-6000 m³/h",head:"5-60 m",power:"0.75-315 kW"},
+desc:"The most widely used submersible sewage pump for solids and fiber-laden wastewater. Non-clog impeller and submersible motor make it the standard choice for municipal, construction and industrial duty.",
+feats:["Non-clog impeller handles solids and fibers","Double mechanical seal with oil chamber (SiC faces)","Submersible motor cooled by surrounding water","Built-in thermal overload protection","Wide range: 0.75 kW small units up to 315 kW heavy duty","Guide rail auto-coupling system available"],
+apps:["Municipal Sewage","Construction Sites","Industrial Wastewater","Sump Drainage","Wastewater Treatment Plants"],
+imgs:["https://aka.doubaocdn.com/s/yvuYzgVC3B","https://aka.doubaocdn.com/s/A0BgX4xQU5","https://aka.doubaocdn.com/s/eWVwiusuHm","https://aka.doubaocdn.com/s/VAgZ9lYldG","https://aka.doubaocdn.com/s/5qHen4zQvx","https://aka.doubaocdn.com/s/uY3EOdjCHH"],
+models:[["WQ7-10-0.75","7","10","0.75"],["WQ15-15-1.5","15","15","1.5"],["WQ30-20-3","30","20","3"],["WQ50-25-5.5","50","25","5.5"],["WQ100-30-11","100","30","11"],["WQ200-40-37","200","40","37"],["WQ500-50-110","500","50","110"],["WQ1000-60-315","1000","60","315"]]},
+{id:"wqr",name:"WQR High Temperature Resistant Sewage Pump",cat:"submersible",tag:"HIGH TEMP",materials:"Cast Iron / High-temp seal",spec:{size:"50-300 mm",flow:"5-1200 m³/h",head:"6-60 m",power:"1.5-110 kW"},
+desc:"WQR high-temperature submersible sewage pump runs continuously in liquids up to 120°C. Special motor insulation, high-temp mechanical seal and red epoxy coating for boiler and hot industrial wastewater.",
+feats:["Handles media up to 120°C continuously","Class H high-temperature motor insulation","High-temperature resistant mechanical seal","Red color identifies high-temperature version","Non-clog impeller for solids handling","Double seal arrangement for reliability"],
+apps:["Boiler Blowdown","Hot Water Drainage","Power Plants","Geothermal Systems","Industrial Hot Wastewater"],
+imgs:["https://aka.doubaocdn.com/s/eKYPfUOwMM"],
+models:[["WQR10-15-1.5","10","15","1.5"],["WQR20-20-3","20","20","3"],["WQR40-30-7.5","40","30","7.5"],["WQR80-40-18.5","80","40","18.5"],["WQR150-50-37","150","50","37"],["WQR300-60-75","300","60","75"]]},
+{id:"wqd",name:"WQD Small Sewage Pump",cat:"submersible",tag:"COMPACT",materials:"Cast Aluminum / Cast Iron",spec:{size:"25-50 mm",flow:"5-13 m³/h",head:"5-24 m",power:"0.37-1.85 kW"},
+desc:"Compact lightweight small submersible sewage pump for home and light drainage. Small size, affordable price — a popular choice for basements, small sumps and garden drainage.",
+feats:["Compact and lightweight — easy to handle","Aluminum motor housing for light weight and cooling","Cast iron pump body for durability","Vortex impeller with small solids passage","Optional float switch for automatic operation","Single-phase motor with thermal protector"],
+apps:["Domestic Drainage","Basement Sump","Garden Irrigation","Small Septic Tanks","Light Commercial"],
+imgs:["https://aka.doubaocdn.com/s/TVA1gvicm5","https://aka.doubaocdn.com/s/jNkyjd0DFE","https://aka.doubaocdn.com/s/90lS4xm8o0"],
+models:[["WQD7-5-0.37","7","5","0.37"],["WQD10-8-0.55","10","8","0.55"],["WQD10-10-0.75","10","10","0.75"],["WQD12-15-1.1","12","15","1.1"],["WQD13-24-1.85","13","24","1.85"]]},
+{id:"qdx-qx",name:"QDX / QX Submersible Electric Pump",cat:"submersible",tag:"CLEAN WATER",materials:"Cast Aluminum",spec:{size:"25-40 mm",flow:"1.5-10 m³/h",head:"10-28 m",power:"0.25-1.1 kW"},
+desc:"QDX/QX single-phase small submersible electric pump for clean water. Aluminum body, compact size and economical price for garden irrigation, household supply and tank transfer.",
+feats:["Single-phase 220V — plug-and-play operation","Aluminum housing for light weight and good heat dissipation","Built-in thermal overload protection","Compact size — easy to move and store","Bottom strainer prevents large particles from entering","Optional float switch for automatic on/off"],
+apps:["Garden Irrigation","Household Water Supply","Farmland Water Transfer","Pond Drainage","Well Water"],
+imgs:["https://aka.doubaocdn.com/s/MGH8SN6bVN"],
+models:[["QDX1.5-16-0.37","1.5","16","0.37"],["QDX3-20-0.55","3","20","0.55"],["QDX6-24-0.75","6","24","0.75"],["QDX10-28-1.1","10","28","1.1"]]},
+{id:"wqx",name:"WQX High-lift Sewage Pump",cat:"submersible",tag:"HIGH HEAD",materials:"Cast Iron",spec:{size:"50-80 mm",flow:"6-15 m³/h",head:"25-72 m",power:"1.5-7.5 kW"},
+desc:"WQX high-head submersible sewage pump lifts sewage to great heights. Multichannel impeller and high-head hydraulics deliver up to 72 meters — for deep pits and high-rise drainage.",
+feats:["High head up to 72 meters","Dual mechanical seal arrangement for reliability","High-pressure motor winding insulation","Non-clog impeller handles moderate solids","Thermal overload protection standard","Heavy-duty ball bearings for long service life"],
+apps:["Deep Pits","High-Rise Drainage","Mine Water","Deep Sump Pumping","Vertical Lift Applications"],
+imgs:["https://aka.doubaocdn.com/s/8UlSQ6nZ5k","https://aka.doubaocdn.com/s/LW7R2i7Kgm"],
+models:[["WQX6-25-1.5","6","25","1.5"],["WQX8-40-2.2","8","40","2.2"],["WQX10-50-4","10","50","4"],["WQX12-60-5.5","12","60","5.5"],["WQX15-72-7.5","15","72","7.5"]]},
+{id:"wqp",name:"WQP Stainless Steel Sewage Pump",cat:"submersible",tag:"STAINLESS STEEL",materials:"SS304 / SS316",spec:{size:"50-250 mm",flow:"7-460 m³/h",head:"5-55 m",power:"0.75-75 kW"},
+desc:"WQP all-stainless submersible sewage pump (304 or 316) resists corrosion — designed for seawater, corrosive sewage and chemical wastewater where cast iron pumps fail.",
+feats:["All stainless steel construction (304 or 316)","Excellent corrosion resistance for seawater and chemicals","Non-clog impeller handles solids and fibers","Silicon carbide double mechanical seal","Submersible motor with Class F insulation","Suitable for pH range 4–10"],
+apps:["Seawater","Corrosive Sewage","Chemical Wastewater","Marine Applications","Food Processing"],
+imgs:["https://aka.doubaocdn.com/s/SUa9uto12e","https://aka.doubaocdn.com/s/Yl8cT19wm6","https://aka.doubaocdn.com/s/tL9SA9fUcr","https://aka.doubaocdn.com/s/hhLVug4oO1"],
+models:[["WQP7-5-0.75","7","5","0.75"],["WQP15-10-1.5","15","10","1.5"],["WQP30-20-4","30","20","4"],["WQP60-30-11","60","30","11"],["WQP120-40-30","120","40","30"],["WQP250-50-55","250","50","55"]]},
+{id:"wqd-wqs",name:"WQD / WQ-S Stainless Steel Sewage Pump",cat:"submersible",tag:"SS CASTING",materials:"Stainless Steel Casting",spec:{size:"25-50 mm (threaded)",flow:"3-25 m³/h",head:"3-34 m",power:"0.25-4 kW"},
+desc:"WQD/WQ-S precision-cast stainless steel submersible sewage pump with threaded outlet. Corrosion-resistant all-stainless body for building drainage, aquaculture and seawater.",
+feats:["Precision-cast 304/316 stainless steel body","Threaded outlet for easy pipe connection","Compact and lightweight design","Corrosion-resistant for saltwater and chemicals","Single or three-phase motor options","Optional float switch for automatic operation"],
+apps:["Building Drainage","Hospitals","Aquaculture","Seawater","Chemical Drainage"],
+imgs:["https://aka.doubaocdn.com/s/YMQaHjVwhJ","https://aka.doubaocdn.com/s/6rAHbqh0Bj","https://aka.doubaocdn.com/s/ED3y2WJ70d"],
+models:[["WQD3-3-0.25","3","3","0.25"],["WQD6-8-0.55","6","8","0.55"],["WQD10-15-1.1","10","15","1.1"],["WQD15-24-2.2","15","24","2.2"],["WQ-S25-34-4","25","34","4"]]},
+{id:"qsp",name:"QSP Fountain Pump",cat:"submersible",tag:"FOUNTAIN",materials:"Cast Iron / SS Optional",spec:{size:"50-250 mm",flow:"15-650 m³/h",head:"6-75 m",power:"1.1-75 kW"},
+desc:"QSP fountain submersible pump for water features, musical fountains and landscape applications. Quiet, vibration-free and reliable — the standard choice for decorative water displays.",
+feats:["Optimized for fountain duty — smooth flow","Quiet operation for noise-sensitive locations","Vibration-free motor for fountain stability","Stainless steel option available for decorative pools","Wide flow range for different fountain designs","Suitable for continuous or intermittent duty"],
+apps:["Musical Fountains","Landscape Water Features","Water Aeration","Decorative Pools","Park & Plaza Fountains"],
+imgs:["https://aka.doubaocdn.com/s/76haRWtDmE","https://aka.doubaocdn.com/s/ornK3S5vjC"],
+models:[["QSP15-6-1.1","15","6","1.1"],["QSP30-10-2.2","30","10","2.2"],["QSP60-20-7.5","60","20","7.5"],["QSP120-30-18.5","120","30","18.5"],["QSP250-50-45","250","50","45"],["QSP650-75-75","650","75","75"]]},
+{id:"xwq",name:"XWQ Reamer Cutting Sewage Pump",cat:"submersible",tag:"GRINDER",materials:"Cast Iron / Hardened Steel",spec:{size:"50-150 mm",flow:"10-300 m³/h",head:"10-30 m",power:"0.75-22 kW"},
+desc:"XWQ reamer cutting submersible sewage pump shreds fibers, stringy waste and soft solids before they reach the impeller — prevents clogging in difficult applications.",
+feats:["Rotary reamer/cutter assembly shreds fibers and debris","Hardened steel cutting blades for long service life","Prevents clogging from stringy and fibrous waste","Double mechanical seal with silicon carbide faces","Thermal overload protection in motor","Available with guide rail system"],
+apps:["Sewage with Fibers","Plastic & Stringy Waste","Kitchen Wastewater","Hospital Wastewater","Waste Treatment"],
+imgs:["https://aka.doubaocdn.com/s/dnFy2w0Hck","https://aka.doubaocdn.com/s/vhzeLJwi2A","https://aka.doubaocdn.com/s/5n4jGeriox"],
+models:[["XWQ10-10-0.75","10","10","0.75"],["XWQ20-15-2.2","20","15","2.2"],["XWQ40-20-5.5","40","20","5.5"],["XWQ80-25-11","80","25","11"],["XWQ150-30-18.5","150","30","18.5"],["XWQ300-25-22","300","25","22"]]},
+{id:"wqas",name:"WQAS Cutting Sewage Pump",cat:"submersible",tag:"HEAVY GRINDER",materials:"Cast Iron / Hardened Alloy",spec:{size:"50-300 mm",flow:"10-1000 m³/h",head:"10-100 m",power:"0.75-110 kW"},
+desc:"WQAS heavy-duty cutting submersible pump with powerful dual-blade cutting system for harsh sewage containing rags, plastics and solid waste. Big capacity plus reliable cutting.",
+feats:["Heavy-duty dual-blade cutting mechanism","Handles tough sewage with rags and solid waste","Hardened alloy steel cutter blades","Wide power range from 0.75 kW to 110 kW","High head capability up to 100 meters","Thermal and water leakage protection"],
+apps:["Sewage Treatment Plants","Fibrous Waste","Solid Waste Pumping","Municipal Lift Stations","Industrial Wastewater"],
+imgs:["https://aka.doubaocdn.com/s/1bXUuMBl4I"],
+models:[["WQAS10-15-1.5","10","15","1.5"],["WQAS30-25-5.5","30","25","5.5"],["WQAS80-40-18.5","80","40","18.5"],["WQAS200-60-55","200","60","55"],["WQAS500-80-90","500","80","90"],["WQAS1000-100-110","1000","100","110"]]},
+{id:"qy",name:"QY Oil-filled Submersible Pump",cat:"submersible",tag:"OIL-FILLED",materials:"Cast Iron",spec:{size:"50-250 mm",flow:"8.5-500 m³/h",head:"10-90 m",power:"2.2-75 kW"},
+desc:"QY oil-filled submersible pump — oil-filled motor chamber lubricates and cools the windings. Excellent motor cooling and bearing lubrication for clean water irrigation and transfer.",
+feats:["Oil-filled motor chamber for lubrication and cooling","Reliable performance in clean water applications","Mechanical seal with oil barrier","Wide range of sizes for agricultural use","Three-phase motor for industrial and farm duty","Suitable for continuous operation"],
+apps:["Farmland Irrigation","Water Transfer","Mining Drainage","Aquaculture","Reservoir Pumping"],
+imgs:["https://aka.doubaocdn.com/s/DSkfQuISdV","https://aka.doubaocdn.com/s/ASkUe9Giav","https://aka.doubaocdn.com/s/mFIHuuqeVb","https://aka.doubaocdn.com/s/0nM6cq3jko","https://aka.doubaocdn.com/s/PDnIskWs6y"],
+models:[["QY8.5-10-2.2","8.5","10","2.2"],["QY15-20-3","15","20","3"],["QY40-30-7.5","40","30","7.5"],["QY65-40-15","65","40","15"],["QY100-50-22","100","50","22"],["QY200-70-45","200","70","45"],["QY500-90-75","500","90","75"]]},
+{id:"qyf",name:"QYF Stainless Steel Oil-filled Submersible Pump",cat:"submersible",tag:"OIL-FILLED SS",materials:"Stainless Steel",spec:{size:"50-150 mm",flow:"15-260 m³/h",head:"7-40 m",power:"2.2-7.5 kW"},
+desc:"QYF stainless steel oil-filled submersible pump combines oil-filled motor reliability with stainless corrosion resistance. For seawater, brackish water and corrosive liquids.",
+feats:["Stainless steel pump body and motor housing","Oil-filled motor for reliable lubrication and cooling","Corrosion-resistant for seawater and brackish water","Double mechanical seal arrangement","Smooth surface for easy cleaning","Suitable for aquaculture and marine use"],
+apps:["Seawater","Corrosive Liquids","Chemical Drainage","Aquaculture","Marine Service"],
+imgs:["https://aka.doubaocdn.com/s/oCeU9ie32P","https://aka.doubaocdn.com/s/7SNcpZKNAx"],
+models:[["QYF15-7-2.2","15","7","2.2"],["QYF40-15-3","40","15","3"],["QYF80-25-5.5","80","25","5.5"],["QYF150-40-7.5","150","40","7.5"]]},
+{id:"qd",name:"QD Multistage Oil-filled Submersible Pump",cat:"submersible",tag:"MULTISTAGE",materials:"Cast Iron / Aluminum",spec:{size:"25-50 mm",flow:"3-96 m³/h",head:"22-96 m",power:"0.75-3 kW"},
+desc:"QD multistage oil-filled submersible pump uses multiple impeller stages for high head in a compact body. Ideal where pressure matters — high-rise supply, sprinkler and well water.",
+feats:["Multistage impeller stack for high head output","Oil-filled motor for cooling and lubrication","Compact diameter fits in smaller wells","Built-in thermal overload protection","Single and three-phase options available","Smooth, steady pressure output"],
+apps:["High-Rise Water Supply","Sprinkler Irrigation","Well Water Delivery","Pressure Boosting","Small System Water Supply"],
+imgs:["https://aka.doubaocdn.com/s/UTftmUVw7b","https://aka.doubaocdn.com/s/ZlMTVdq2vb"],
+models:[["QD3-22-0.75","3","22","0.75"],["QD6-40-1.5","6","40","1.5"],["QD12-60-2.2","12","60","2.2"],["QD24-80-3","24","80","3"],["QD96-96-3","96","96","3"]]},
+{id:"qn-qdn",name:"QN / QDN Built-in Stainless Steel Submersible Pump",cat:"submersible",tag:"BUILT-IN MOTOR",materials:"Stainless Steel",spec:{size:"20-50 mm",flow:"1.5-40 m³/h",head:"4.5-24 m",power:"0.1-1.5 kW"},
+desc:"QN/QDN built-in (canned) motor stainless steel pump — motor winding sealed inside the stainless can, impeller on the same shaft outside. Leak-proof 'canned motor' design for food and pharma.",
+feats:["Built-in (canned) motor design — no shaft seal needed","All stainless steel construction for hygiene","Leak-proof design with no mechanical seal","Ultra-quiet and vibration-free operation","Suitable for food-grade and pharmaceutical liquids","Very small and lightweight"],
+apps:["Beverage Industry","Dairy Processing","Pharmaceutical","Condensate Water","Clean Liquid Transfer"],
+imgs:["https://aka.doubaocdn.com/s/cFhv7nVkDQ"],
+models:[["QN1.5-4.5-0.1","1.5","4.5","0.1"],["QN5-8-0.25","5","8","0.25"],["QN10-12-0.55","10","12","0.55"],["QN20-18-1.1","20","18","1.1"],["QN40-24-1.5","40","24","1.5"]]},
+{id:"qx-qdx-ss",name:"QX / QDX All Stainless Steel Submersible Pump",cat:"submersible",tag:"FULL STAINLESS",materials:"SS304 / SS316",spec:{size:"25-100 mm",flow:"1.5-80 m³/h",head:"6-30 m",power:"0.25-11 kW"},
+desc:"QX/QDX full stainless submersible pump — 304/316 including motor housing. Type A (stamping) and Type B (casting) configurations for corrosive liquids, seawater and aquaculture.",
+feats:["100% stainless steel construction (304 or 316)","Type A: stamping; Type B: casting options","Excellent corrosion resistance","Silicon carbide mechanical seal","Smooth surfaces — easy to clean","Single or three-phase motor available"],
+apps:["Corrosive Liquids","Seawater","Aquaculture","Food Processing","Chemical Drainage"],
+imgs:["https://aka.doubaocdn.com/s/2aPDLmEUGH","https://aka.doubaocdn.com/s/jpUhLD4U5y"],
+models:[["QX1.5-6-0.25","1.5","6","0.25"],["QX6-10-0.55","6","10","0.55"],["QX15-15-1.5","15","15","1.5"],["QX40-20-4","40","20","4"],["QX80-30-11","80","30","11"]]},
+{id:"qjd",name:"QJD Stainless Steel Deep Well Pump",cat:"submersible",tag:"DEEP WELL",materials:"Stainless Steel 304",spec:{size:"25-50 mm",flow:"2-20 m³/h",head:"10-388 m",power:"0.37-37 kW"},
+desc:"QJD stainless steel deep well pump — a 4-inch submersible multistage pump for extracting water from deep wells. All-stainless construction keeps water clean; compact diameter fits standard boreholes.",
+feats:["4-inch compact design — fits standard boreholes","All stainless steel construction for clean water","Multistage impeller stack — head up to 388 meters","Submersible motor cooled by well water","Built-in check valve prevents backflow","Suitable for drinking water applications"],
+apps:["Deep Well Water Extraction","Farmland Irrigation","Domestic Water Supply","Small Community Wells","Groundwater Supply"],
+imgs:["https://aka.doubaocdn.com/s/U9M7c8hTVA","https://aka.doubaocdn.com/s/NCtdYqxziv","https://aka.doubaocdn.com/s/3aoQGNvARh","https://aka.doubaocdn.com/s/h4ZkcnJzoH"],
+models:[["QJD2-50","2","50","0.37"],["QJD4-100","4","100","1.1"],["QJD6-150","6","150","2.2"],["QJD8-200","8","200","4"],["QJD12-250","12","250","7.5"],["QJD16-300","16","300","11"],["QJD20-388","20","388","18.5"]]},
+{id:"sp",name:"SP Type Stainless Steel Deep Well Pump",cat:"submersible",tag:"PREMIUM BOREHOLE",materials:"Stainless Steel 304/316",spec:{size:"50-150 mm",flow:"2-95 m³/h",head:"24-250 m",power:"0.37-75 kW"},
+desc:"SP premium stainless steel multistage borehole pump — the high-end choice for deep well applications. Precision-machined impellers deliver higher efficiency and longer life.",
+feats:["Premium-grade all-stainless steel construction","Precision-machined impellers and diffusers","High efficiency reduces energy consumption","Sand-resistant design for abrasive well water","Available in 304 or 316 stainless steel","Thrust bearing rated for high axial loads"],
+apps:["Deep Wells","Municipal Water Supply","Fountain Systems","Irrigation","Water Treatment Feed"],
+imgs:["https://aka.doubaocdn.com/s/fmTXx8gaxG","https://aka.doubaocdn.com/s/3PnYbyUuGz"],
+models:[["SP2-24","2","24","0.37"],["SP6-50","6","50","1.5"],["SP10-80","10","80","3"],["SP20-120","20","120","7.5"],["SP45-180","45","180","22"],["SP95-250","95","250","45"]]},
+{id:"qgd",name:"QGD Stainless Steel Screw Submersible Pump",cat:"submersible",tag:"SCREW TYPE",materials:"Stainless Steel",spec:{size:"25 mm",flow:"1.5-2 m³/h",head:"45-100 m",power:"0.37-1.1 kW"},
+desc:"QGD stainless steel screw submersible pump uses a positive-displacement screw mechanism for very high head at low flow. Ideal for household wells with deep water tables.",
+feats:["Screw-type mechanism — very high head capability","Stainless steel construction for clean water","Compact size for narrow wells","Steady, non-pulsating flow","Single-phase power — works on domestic supply","Built-in check valve and thermal protection"],
+apps:["Well Water Supply","High-Head Small Flow","Domestic Water from Deep Wells","Remote Homes","Small Scale Irrigation"],
+imgs:["https://aka.doubaocdn.com/s/VxA4zqntHt","https://aka.doubaocdn.com/s/VRlisWIWEJ"],
+models:[["QGD1.5-45-0.37","1.5","45","0.37"],["QGD2-70-0.75","2","70","0.75"],["QGD2-100-1.1","2","100","1.1"]]},
+{id:"qj",name:"QJ Type Deep Well Pump",cat:"submersible",tag:"INDUSTRIAL",materials:"Cast Iron / Stainless Steel",spec:{size:"50-250 mm",flow:"5-500 m³/h",head:"13-320 m",power:"3-110 kW"},
+desc:"QJ industrial-grade deep well pump in cast iron or stainless steel. Built for larger boreholes and higher flows — serving municipal supply, mining and large-scale irrigation.",
+feats:["Industrial-grade construction for heavy duty","Cast iron or stainless steel options","Wide flow range up to 500 m³/h","Head up to 320 meters","Heavy-duty submersible motor","Suitable for continuous industrial duty"],
+apps:["Deep Well Water","Mining Dewatering","Municipal Water Supply","Large-scale Irrigation","Industrial Groundwater"],
+imgs:["https://aka.doubaocdn.com/s/3VL6ZOlXMQ","https://aka.doubaocdn.com/s/VcexB9UFoA","https://aka.doubaocdn.com/s/fJAFT0ppNk"],
+models:[["QJ5-13-3","5","13","3"],["QJ10-50-5.5","10","50","5.5"],["QJ20-100-11","20","100","11"],["QJ50-150-30","50","150","30"],["QJ100-200-75","100","200","75"],["QJ250-320-110","250","320","110"]]},
+{id:"v-series",name:"V Series Small Submersible Pump",cat:"submersible",tag:"LIGHT DUTY",materials:"Cast Iron / Aluminum",spec:{size:"25-50 mm",flow:"5-30 m³/h",head:"5-20 m",power:"0.18-2.2 kW"},
+desc:"V series compact light-duty submersible pump with optional float switch. Small footprint, light weight — perfect for garden ponds, basement drainage and household water transfer.",
+feats:["Compact and lightweight — easy to move","Optional float switch for automatic operation","Vortex impeller handles small solids","Aluminum motor housing for good cooling","Built-in thermal protector","Single-phase power — plug and play"],
+apps:["Garden Ponds","Basement Drainage","Light Drainage","Domestic Use","Small Sump Pits"],
+imgs:["https://aka.doubaocdn.com/s/CA3bcWsnrh","https://aka.doubaocdn.com/s/2Ji2LnFtZl","https://aka.doubaocdn.com/s/6VGfsbtA3s","https://aka.doubaocdn.com/s/mAbVRotjwj","https://aka.doubaocdn.com/s/UND16Ohul1","https://aka.doubaocdn.com/s/Pku4D7FFvA","https://aka.doubaocdn.com/s/NWImbwVyV8","https://aka.doubaocdn.com/s/HwRQrVSAZB"],
+models:[["V-180","5","5","0.18"],["V-250","8","7","0.25"],["V-370","10","8","0.37"],["V-550","15","10","0.55"],["V-750","18","12","0.75"],["V-1100","22","15","1.1"],["V-1500","26","18","1.5"],["V-2200","30","20","2.2"]]},
+{id:"vn-series",name:"VN Series All Stainless Steel Sewage Pump",cat:"submersible",tag:"COMPACT SS",materials:"SS304 / SS316",spec:{size:"25-50 mm",flow:"5-30 m³/h",head:"5-24 m",power:"0.25-3 kW"},
+desc:"VN all-stainless compact submersible sewage pump for light-to-medium sewage duty. Corrosion-resistant 304/316 for industrial, mining, aquaculture and seawater where corrosion is a concern.",
+feats:["All 304/316 stainless steel construction","Compact size for tight spaces","Vortex impeller with solids passage","Corrosion-resistant for saltwater and chemicals","Optional float switch for automatic operation","Silicon carbide mechanical seal"],
+apps:["Industrial / Mining Drainage","Aquaculture","Seawater","Corrosive Media","Light Sewage Duty"],
+imgs:["https://aka.doubaocdn.com/s/fDshq7vYMi","https://aka.doubaocdn.com/s/MrBlsUnsKe","https://aka.doubaocdn.com/s/7WIc2d6gfL","https://aka.doubaocdn.com/s/b2pjUe7PRR"],
+models:[["VN-250","5","5","0.25"],["VN-550","8","8","0.55"],["VN-750","10","10","0.75"],["VN-1500","15","15","1.5"],["VN-2200","20","20","2.2"],["VN-3000","30","24","3"]]},
+{id:"pneumatic",name:"Pneumatic Submersible Pump",cat:"submersible",tag:"AIR-DRIVEN",materials:"Cast Iron / Aluminum",spec:{size:"50-80 mm",flow:"10-30 m³/h",head:"65-120 m",power:"Pneumatic (air-driven)"},
+desc:"Pneumatic submersible pump driven entirely by compressed air — no electric motor. Intrinsically safe for explosive environments such as mines, tankers and hazardous gas areas.",
+feats:["100% air-driven — no electricity required","Intrinsically safe for explosive environments","No motor to burn out or spark","High head capability up to 120m","Self-priming and can run dry without damage","Simple construction — few moving parts"],
+apps:["Underground Mines","Oil Tankers","Explosive Dust Environments","Hazardous Locations","Chemical Plants with Gas Risk"],
+imgs:["https://aka.doubaocdn.com/s/SDwyr5u9Zo","https://aka.doubaocdn.com/s/ITUgPKlvQW"],
+models:[["QY-10-65","10","65","Air"],["QY-15-80","15","80","Air"],["QY-20-100","20","100","Air"],["QY-30-120","30","120","Air"]]},
+{id:"bqs-bqw",name:"BQS / BQW Mining Flameproof Submersible Pump",cat:"submersible",tag:"EXPLOSION-PROOF",materials:"Cast Iron / Wear-resistant Alloy",spec:{size:"50-300 mm",flow:"10-1500 m³/h",head:"7-320 m",power:"1.5-132 kW"},
+desc:"BQS/BQW mining flameproof submersible pump certified for coal mines and hazardous gas/dust atmospheres. Flameproof motor housing meets the strictest underground safety standards.",
+feats:["Flameproof motor certified for coal mines (ExdI Mb)","Built for underground mining with gas and dust","Wear-resistant impeller for abrasive mine water","Double mechanical seal with oil chamber","Motor protection: overheat, leakage, over-current","Handles coal slurry and mine water with solids"],
+apps:["Coal Mines","Explosive Gas Environments","Underground Drainage","Mine Water Pumping","Tunneling Projects"],
+imgs:["https://aka.doubaocdn.com/s/xtV5sOVBz1","https://aka.doubaocdn.com/s/Rr3CwU1bAy","https://aka.doubaocdn.com/s/JXdrFi3iwx"],
+models:[["BQS10-7-1.5","10","7","1.5"],["BQS30-40-5.5","30","40","5.5"],["BQS60-80-22","60","80","22"],["BQS120-150-75","120","150","75"],["BQS300-250-132","300","250","132"],["BQS1500-320-132","1500","320","132"]]},
+{id:"nsq-zjq",name:"NSQ / ZJQ Submersible Slurry Pump",cat:"submersible",tag:"SLURRY DUTY",materials:"High-Chromium Cast Iron",spec:{size:"80-250 mm",flow:"25-500 m³/h",head:"15-45 m",power:"4-90 kW"},
+desc:"NSQ/ZJQ submersible slurry pump for abrasive mud, sand, coal slag and solids-laden liquids. High-chromium wear-resistant cast iron with built-in agitator suspends settled solids.",
+feats:["High-chromium cast iron for maximum wear resistance","Built-in agitator suspends settled solids","Submersible design — no priming required","Heavy-duty bearings and mechanical seal","Handles high concentration of solids","Wide range of sizes for different duty levels"],
+apps:["Slurry Pumping","Sand Extraction","Coal Slag","Mining Operations","Dredging & River Cleaning"],
+imgs:["https://aka.doubaocdn.com/s/bVIOv8sqkc","https://aka.doubaocdn.com/s/6C828MZAGH"],
+models:[["NSQ25-15-4","25","15","4"],["NSQ50-25-7.5","50","25","7.5"],["NSQ100-30-15","100","30","15"],["NSQ200-40-37","200","40","37"],["NSQ500-45-90","500","45","90"]]},
+{id:"sewage-lift",name:"Sewage Lifting Equipment",cat:"submersible",tag:"INTEGRATED",materials:"Stainless Steel Tank",spec:{size:"Custom",flow:"Custom per configuration",head:"Custom per pump selection",power:"Variable"},
+desc:"Integrated stainless steel sewage lifting unit — complete packaged system for basements and below-grade wastewater. Tank, submersible pump, level sensors and auto control pre-assembled for direct installation.",
+feats:["Fully automatic operation with level sensors","Stainless steel tank — corrosion resistant","Integrated pump(s) — pre-plumbed and wired","Duty/standby pump option for reliability","Alarm and notification on fault","Various tank sizes to match application"],
+apps:["Basements","Shopping Malls","Underground Sewage Lifting","Commercial Buildings","Below-grade Restrooms"],
+imgs:["https://aka.doubaocdn.com/s/ROzwgTwtj7","https://aka.doubaocdn.com/s/nKapdN8wzE","https://aka.doubaocdn.com/s/QFGXvD26rK"],
+models:[["Lift-32L","1×1.5","20","1.5"],["Lift-50L","1×2.2","25","2.2"],["Lift-80L","2×2.2","25","2.2"],["Lift-120L","2×4","30","4"]]},
+{id:"qsz-qsh",name:"QSZ Axial Flow / QSH Mixed Flow Pump",cat:"submersible",tag:"LARGE FLOW",materials:"Cast Iron / SS Optional",spec:{size:"350-1000 mm",flow:"300-6000 m³/h",head:"2.6-15 m",power:"11-250 kW"},
+desc:"QSZ (axial flow) and QSH (mixed flow) submersible pumps for very large flow, low head. Submersible installation needs no pump house — the most efficient solution for flood control and irrigation.",
+feats:["Very large flow rate up to 6000 m³/h","Submersible installation — no pump house needed","High efficiency — lower operating cost","Axial flow (QSZ) and mixed flow (QSH) designs","Heavy-duty construction for continuous duty","Suitable for both dry and wet installation"],
+apps:["Agricultural Irrigation","Flood Drainage","Water Transfer Projects","Power Plant Cooling","Municipal Drainage"],
+imgs:["https://aka.doubaocdn.com/s/ecynR8g4me"],
+models:[["QSZ300-2.6-11","300","2.6","11"],["QSZ500-5-18.5","500","5","18.5"],["QSH800-8-30","800","8","30"],["QSH1500-10-75","1500","10","75"],["QSH3000-15-160","3000","15","160"],["QSH6000-12-250","6000","12","250"]]},
+{id:"qxn",name:"QXN High-lift Submersible Pump",cat:"submersible",tag:"HIGH LIFT",materials:"Cast Iron",spec:{size:"50-80 mm",flow:"10-25 m³/h",head:"40-120 m",power:"2.2-9.2 kW"},
+desc:"QXN high-lift multistage submersible pump provides very high discharge head for deep sumps and mining. Multistage impellers with cooling jacket allow operation at low water levels.",
+feats:["High lift up to 120 meters","Multistage impeller stack","Cooling jacket allows operation at low water levels","Heavy-duty double mechanical seal","Built-in thermal and overload protection","Suitable for drainage from deep excavations"],
+apps:["Mines","Construction Sites","Deep Well Water","Deep Sump Drainage","Foundation Pit Dewatering"],
+imgs:["https://aka.doubaocdn.com/s/42MgGBFIAz","https://aka.doubaocdn.com/s/HZvuvQkfq6"],
+models:[["QXN10-40-2.2","10","40","2.2"],["QXN15-60-4","15","60","4"],["QXN20-80-5.5","20","80","5.5"],["QXN25-100-7.5","25","100","7.5"],["QXN25-120-9.2","25","120","9.2"]]},
+{id:"kbz-kbd-kbs",name:"KBZ / KBD / KBS Wear-resistant Sand Pump",cat:"submersible",tag:"DREDGING",materials:"Wear-resistant High Cr Iron",spec:{size:"75-150 mm",flow:"27-192 m³/h",head:"14-40 m",power:"1.5-15 kW"},
+desc:"KBZ/KBD/KBS wear-resistant submersible sand pump for dredging, sand extraction and river cleaning. High-chromium cast iron with stirring impeller handles highly abrasive sand and gravel.",
+feats:["High-chromium iron for extreme wear resistance","Stirring impeller agitates settled sand","Handles highly abrasive sand and gravel","Semi-open impeller with large passage","Heavy-duty bearings and seals","Optional high-chrome agitator extension"],
+apps:["Dredging","Sand Extraction","Port Maintenance","River & Lake Cleaning","Reservoir Sediment Removal"],
+imgs:["https://aka.doubaocdn.com/s/SGSYiSBuom"],
+models:[["KBZ75-14-1.5","27","14","1.5"],["KBZ100-20-3","50","20","3"],["KBD100-30-7.5","60","30","7.5"],["KBS150-40-15","192","40","15"]]},
+{id:"mixer",name:"Submersible Mixer",cat:"submersible",tag:"WATER TREATMENT",materials:"Cast Iron / SS304 / SS316",spec:{size:"N/A",flow:"N/A (mixing)",head:"N/A",power:"0.37-15 kW"},
+desc:"QJB submersible mixer for mixing and stirring in wastewater, sludge and equalization tanks. Creates uniform flow patterns across the tank to prevent settling and ensure consistent biological treatment.",
+feats:["IP68 waterproof submersible design","Efficient propeller creates broad flow pattern","Cast iron or stainless steel construction","Stable mounting with guide rail system","Low operating cost and high reliability","Available in various blade diameters"],
+apps:["Sewage Treatment Plants","Sludge Mixing","Aeration Basins","Anoxic Tanks","Equalization Basins"],
+imgs:["https://aka.doubaocdn.com/s/caXZbegU8S","https://aka.doubaocdn.com/s/zKSrHVNur2"],
+models:[["QJB0.37/8","0.37","N/A","0.37"],["QJB0.85/8","0.85","N/A","0.85"],["QJB1.5/8","1.5","N/A","1.5"],["QJB2.2/12","2.2","N/A","2.2"],["QJB5.5/12","5.5","N/A","5.5"],["QJB7.5/12","7.5","N/A","7.5"]]},
+{id:"flow-booster",name:"Submersible Flow Booster (Dive Jet)",cat:"submersible",tag:"LOW-SPEED MIXER",materials:"Cast Iron / SS304 / SS316",spec:{size:"N/A",flow:"N/A (flow promotion)",head:"N/A",power:"1.5-7.5 kW"},
+desc:"Submersible flow booster (low-speed propeller) produces directional flow in treatment tanks and channels. Used in oxidation ditches, nitrification channels and long water bodies.",
+feats:["Low-speed, high-torque propeller design","Creates directional flow over long distances","IP68 submersible motor","Stainless steel or cast iron construction","Efficient gear reduction drive","Easy installation with guide rail system"],
+apps:["Wastewater Aeration","Nitrification Channels","Oxidation Ditches","Flow Promotion","Channel Circulation"],
+imgs:["https://aka.doubaocdn.com/s/z98D2IYHTS","https://aka.doubaocdn.com/s/SodLY7Qndh"],
+models:[["QJB-W1.5/8","1.5","N/A","1.5"],["QJB-W2.2/8","2.2","N/A","2.2"],["QJB-W4/12","4","N/A","4"],["QJB-W7.5/12","7.5","N/A","7.5"]]},
+{id:"control-cabinet",name:"Pump Control Cabinet",cat:"submersible",tag:"CONTROLLER",materials:"Steel Cabinet",spec:{size:"N/A",flow:"N/A (control equipment)",head:"N/A",power:"0.18-250 kW pumps"},
+desc:"PQK series pump control cabinet provides complete electrical control and protection. Multiple start methods (DOL, star-delta, soft starter, VFD) with overload, short-circuit, leakage and overheat protection.",
+feats:["Suitable for 0.18–250 kW pumps","Multiple start methods: DOL, star-delta, soft starter, VFD","Comprehensive protection: overload, short-circuit, leakage","Automatic level control via float or pressure sensor","Duty/standby pump alternation logic","Alarm output and remote monitoring options"],
+apps:["Pump Starting & Protection","Automatic Pump Control","Sewage Lift Stations","Water Supply Systems","Industrial Pump Control"],
+imgs:["https://aka.doubaocdn.com/s/DH5EeQeCLK","https://aka.doubaocdn.com/s/Ce2Bv5EEOM","https://aka.doubaocdn.com/s/6JJve694PX","https://aka.doubaocdn.com/s/34wBrNGWXP"],
+models:[["PQK-0.75","0.75","DOL","0.75"],["PQK-5.5","5.5","DOL/Star-Delta","5.5"],["PQK-15","15","Star-Delta","15"],["PQK-37","37","Star-Delta/Soft","37"],["PQK-75","75","Soft/VFD","75"],["PQK-250","250","VFD","250"]]}
+
+
+];
+
+/* ===== STATE ===== */
+let state = { route:"home", cat:"all", query:"", productId:null, imgIdx:0 };
+
+/* ===== ROUTER ===== */
+function parseHash(){
+  const h = location.hash.replace(/^#\//,"") || "home";
+  const parts = h.split("/");
+  if(parts[0]==="product" && parts[1]){ state.route="product"; state.productId=parts[1]; }
+  else { state.route = parts[0]; state.productId=null; }
+  if(state.route!=="products"){ state.cat="all"; state.query=""; }
+}
+window.addEventListener("hashchange",()=>{ parseHash(); render(); window.scrollTo(0,0); });
+document.querySelectorAll("[data-link]").forEach(a=>a.addEventListener("click",()=>{
+  document.querySelectorAll(".nav-links a").forEach(x=>x.classList.remove("active"));
+  document.querySelector(".nav-links").classList.remove("open");
+}));
+
+/* ===== RENDER ===== */
+function render(){
+  const app = document.getElementById("app");
+  const navs = document.querySelectorAll(".nav-links a[data-link]");
+  navs.forEach(a=>a.classList.toggle("active", a.getAttribute("href")===("#/"+state.route) || (state.route==="product"&&a.getAttribute("href")==="#/products")));
+  switch(state.route){
+    case "home": app.innerHTML = viewHome(); break;
+    case "products": app.innerHTML = viewProducts(); break;
+    case "product": app.innerHTML = viewDetail(state.productId); break;
+    case "about": app.innerHTML = viewAbout(); break;
+    case "contact": app.innerHTML = viewContact(); break;
+    default: app.innerHTML = viewHome();
+  }
+  bindEvents();
+}
+
+/* ===== HELPERS ===== */
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+function arrowR(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';}
+function getSeries(id){ return SERIES.find(s=>s.id===id); }
+
+/* ===== VIEW: HOME ===== */
+function viewHome(){
+  const cent = SERIES.filter(s=>s.cat==="centrifugal");
+  const sub  = SERIES.filter(s=>s.cat==="submersible");
+  return `
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">PROFESSIONAL PUMP MANUFACTURER</span>
+          <h1>Reliable Industrial Pumps for <em>Global Buyers</em></h1>
+          <p class="hero-sub">We design, manufacture and export a full range of centrifugal and submersible pumps for industrial, municipal, agricultural and commercial applications. OEM/ODM services available with 20+ years of engineering expertise.</p>
+          <div class="hero-actions">
+            <a href="#/products" class="btn btn-primary" data-link>Explore Products ${arrowR()}</a>
+            <a href="#/contact" class="btn btn-accent" data-link>Request a Quote</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <span class="badge">Factory Direct</span>
+          <div class="pump-card">
+            <img src="${getSeries('wq-qw').imgs[0]}" alt="Submersible sewage pump">
+          </div>
+          <span class="badge2">20+ Years Manufacturing</span>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>20+</b><span>YEARS EXPERIENCE</span></div>
+        <div class="stat"><b>500+</b><span>PUMP MODELS</span></div>
+        <div class="stat"><b>80+</b><span>EXPORT COUNTRIES</span></div>
+        <div class="stat"><b>99%</b><span>ON-TIME DELIVERY</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Why QY PUMPS</span>
+        <h2>Core Advantages</h2>
+        <p>Direct from the factory — quality, customization and service that trading companies cannot match.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Certified Quality</h3><p>ISO 9001, CE and SGS certified production ensures every pump meets international standards.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div><h3>Own Manufacturing</h3><p>Modern factory with CNC machining centers, automated assembly lines and in-house testing.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 21a9 9 0 100-18 9 9 0 000 18z"/><path d="M12 7v5l3 3"/></svg></div><h3>OEM / ODM Service</h3><p>Full customization from design and materials to private label packaging and branding.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div><h3>Fast Delivery</h3><p>Standard models shipped within 15 days; custom orders delivered in 30–45 days.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Product Range</span>
+        <h2>Complete Range in Two Categories</h2>
+        <p>From small domestic boosters to large industrial sewage pumps — one-stop sourcing.</p>
+      </div>
+      <div class="cat-preview">
+        <a class="cat-card" href="#/products" data-link>
+          <div class="imgwrap"><img src="${getSeries('isg-isw').imgs[0]}" alt="Centrifugal pumps"></div>
+          <div class="body">
+            <h3>Centrifugal Pumps</h3>
+            <p>${CATS.centrifugal.desc}</p>
+            <span class="chip">${cent.length} Series</span><span class="chip">Self-priming</span><span class="chip">Multistage</span><span class="chip">Fire Pumps</span>
+          </div>
+        </a>
+        <a class="cat-card" href="#/products" data-link>
+          <div class="imgwrap"><img src="${getSeries('wq-qw').imgs[1]}" alt="Submersible pumps"></div>
+          <div class="body">
+            <h3>Submersible Pumps</h3>
+            <p>${CATS.submersible.desc}</p>
+            <span class="chip">${sub.length} Series</span><span class="chip">Sewage</span><span class="chip">Deep Well</span><span class="chip">Slurry</span><span class="chip">Explosion-proof</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <h2>Ready to Source Quality Pumps at Factory Prices?</h2>
+        <p>Tell us your flow rate, head, and application requirements. Our engineering team will respond with a detailed quotation within 24 hours.</p>
+        <a href="#/contact" class="btn btn-accent" data-link>Request a Quote ${arrowR()}</a>
+      </div>
+    </div>
+  </section>`;
+}
+
+/* ===== VIEW: PRODUCTS ===== */
+function viewProducts(){
+  const list = SERIES.filter(s=> (state.cat==="all"||s.cat===state.cat) && (!state.query || (s.name+" "+s.tag+" "+(s.models||[]).map(m=>m[0]).join(" ")).toLowerCase().includes(state.query.toLowerCase())));
+  return `
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumb"><a href="#/home" data-link>Home</a> / <span>Products</span></div>
+      <h1>Our Products</h1>
+      <p>${CATS.centrifugal.name} &amp; ${CATS.submersible.name} — ${SERIES.length} series for every pumping application.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn ${state.cat==="all"?"active":""}" onclick="setCat('all')">All (${SERIES.length})</button>
+        <button class="filter-btn ${state.cat==="centrifugal"?"active":""}" onclick="setCat('centrifugal')">Centrifugal (${SERIES.filter(s=>s.cat==="centrifugal").length})</button>
+        <button class="filter-btn ${state.cat==="submersible"?"active":""}" onclick="setCat('submersible')">Submersible (${SERIES.filter(s=>s.cat==="submersible").length})</button>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" placeholder="Search model or series..." value="${esc(state.query)}" oninput="setQuery(this.value)">
+        </div>
+      </div>
+      <div class="pgrid">
+        ${list.length?list.map(s=>pcard(s)).join(""):'<div class="empty">No products match your search.</div>'}
+      </div>
+    </div>
+  </section>`;
+}
+function pcard(s){
+  return `<a class="pcard" href="#/product/${s.id}" data-link>
+    <div class="thumb">
+      <span class="cat-tag">${s.cat==="centrifugal"?"CENTRIFUGAL":"SUBMERSIBLE"}</span>
+      <img src="${s.imgs[0]}" alt="${esc(s.name)}" loading="lazy">
+      ${s.imgs.length>1?`<span class="img-count">${s.imgs.length} photos</span>`:""}
+    </div>
+    <div class="pbody">
+      <h3>${esc(s.name)}</h3>
+      <div class="spec-line"><span>${esc(s.spec.flow)}</span><span>${esc(s.spec.head)}</span><span>${esc(s.spec.power)}</span></div>
+      <span class="go">View Details ${arrowR()}</span>
+    </div>
+  </a>`;
+}
+
+/* ===== VIEW: DETAIL ===== */
+function viewDetail(id){
+  const s = getSeries(id);
+  if(!s) return `<section class="section"><div class="container"><h1>Product not found</h1><p><a href="#/products" data-link>Back to products</a></p></div></section>`;
+  const modelRows = (s.models||[]).map((m,i)=>`<tr><td>${esc(m[0])}</td><td>${esc(m[1])}</td><td>${esc(m[2])}</td><td>${esc(m[3])}</td></tr>`).join("");
+  const specs = [["Outlet Size",s.spec.size],["Flow Rate",s.spec.flow],["Head",s.spec.head],["Power",s.spec.power]];
+  return `
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumb"><a href="#/home" data-link>Home</a> / <a href="#/products" data-link>Products</a> / <span>${esc(s.name)}</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="detail-top">
+        <div class="gallery">
+          <div class="main-img" onclick="openLightbox('${s.imgs[state.imgIdx]}')">
+            <img id="mainImg" src="${s.imgs[state.imgIdx]}" alt="${esc(s.name)}">
+          </div>
+          ${s.imgs.length>1?`<div class="thumbs">${s.imgs.map((u,i)=>`<button class="${i===state.imgIdx?"active":""}" onclick="setImg(${i})"><img src="${u}" alt="view ${i+1}"></button>`).join("")}</div>`:""}
+        </div>
+        <div class="detail-info">
+          <h1>${esc(s.name)}</h1>
+          <div class="detail-tags"><span class="chip">${esc(s.tag)}</span><span class="chip">${s.cat==="centrifugal"?"CENTRIFUGAL":"SUBMERSIBLE"}</span></div>
+          <p style="color:var(--muted)">${esc(s.desc)}</p>
+          <div class="spec-grid">
+            ${specs.map(x=>`<div class="spec-item"><span>${x[0]}</span><b>${esc(x[1])}</b></div>`).join("")}
+          </div>
+          <div class="spec-item" style="margin-bottom:24px"><span>WETTED MATERIALS</span><b>${esc(s.materials)}</b></div>
+          <div class="detail-actions">
+            <a href="#/contact" class="btn btn-accent" data-link>Request a Quote</a>
+            <a href="#/contact" class="btn btn-ghost" data-link>Contact Sales</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="desc-block">
+        <h2>Description</h2>
+        <p>${esc(s.desc)}</p>
+      </div>
+
+      <div class="desc-block">
+        <h2>Key Features</h2>
+        <ul class="feat-list">${s.feats.map(f=>`<li>${esc(f)}</li>`).join("")}</ul>
+      </div>
+
+      <div class="desc-block">
+        <h2>Applications</h2>
+        <ul class="app-list">${s.apps.map(a=>`<li>${esc(a)}</li>`).join("")}</ul>
+      </div>
+
+      <div class="model-table-wrap">
+        <h2>Model Selection Table</h2>
+        <p class="model-note">Typical models of the ${esc(s.name)} series — flow, head and motor power. Contact us for the full range and custom specifications.</p>
+        <table class="models">
+          <colgroup><col style="width:38%"><col style="width:22%"><col style="width:22%"><col style="width:18%"></colgroup>
+          <thead><tr><th>Model</th><th>Flow (m³/h)</th><th>Head (m)</th><th>Power (kW)</th></tr></thead>
+          <tbody>${modelRows||"<tr><td colspan='4'>Contact us for model details</td></tr>"}</tbody>
+        </table>
+      </div>
+    </div>
+  </section>`;
+}
+
+/* ===== VIEW: ABOUT ===== */
+function viewAbout(){
+  return `
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumb"><a href="#/home" data-link>Home</a> / <span>About Us</span></div>
+      <h1>About Us</h1>
+      <p>Professional industrial pump manufacturer with 20+ years of experience.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <span class="kicker">Our Company</span>
+          <h2>Building Reliable Pumps Since 2003</h2>
+          <p>YIWU QY PUMPS CO., LTD. is a professional manufacturer of centrifugal pumps and submersible pumps, serving global B2B customers across 80+ countries. Our modern manufacturing facility covers 50,000+ square meters, with advanced CNC machining centers, automated assembly lines, and a computerized testing bench.</p>
+          <p>We specialize in OEM and ODM services, working with distributors, engineering companies, and project contractors worldwide. Our engineering team supports custom pump design, material selection, and application engineering to ensure every pump meets the specific requirements of its intended service.</p>
+          <a href="#/contact" class="btn btn-primary" data-link>Contact Our Team ${arrowR()}</a>
+        </div>
+        <div class="card" style="padding:0;overflow:hidden">
+          <img src="${getSeries('zbfs-lbfs').imgs[0]}" alt="QY PUMPS manufacturing" style="width:100%;height:100%;object-fit:cover;min-height:340px">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head"><span class="kicker">Strengths</span><h2>Our Core Strengths</h2></div>
+      <div class="grid-4">
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg></div><h3>Certified Quality</h3><p>ISO 9001, CE, and SGS certified production ensures every pump meets international quality standards.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div><h3>Own Manufacturing</h3><p>Modern factory with CNC machining centers, automated assembly, and in-house testing facility.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 21a9 9 0 100-18 9 9 0 000 18z"/><path d="M12 7v5l3 3"/></svg></div><h3>OEM / ODM Service</h3><p>Full customization from design and materials to private label packaging and branding.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div><h3>Fast Delivery</h3><p>Standard models shipped within 15 days; custom orders delivered in 30–45 days.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><span class="kicker">Quality &amp; Standards</span><h2>Certifications &amp; Compliance</h2></div>
+      <div class="cert-grid">
+        <div class="cert-card"><b>ISO 9001</b><span>Quality Management<br>ISO 9001:2015 certified</span></div>
+        <div class="cert-card"><b>CE</b><span>EU Conformity<br>CE marking for EU market</span></div>
+        <div class="cert-card"><b>SGS</b><span>Third-Party Audit<br>SGS production audit passed</span></div>
+        <div class="cert-card"><b>TÜV</b><span>Safety Testing<br>TÜV Rheinland tested</span></div>
+      </div>
+    </div>
+  </section>`;
+}
+
+/* ===== VIEW: CONTACT ===== */
+function viewContact(){
+  return `
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumb"><a href="#/home" data-link>Home</a> / <span>Contact</span></div>
+      <h1>Contact Us</h1>
+      <p>Get in touch with our sales team — we respond within 24 hours.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <span class="kicker">Get in Touch</span>
+          <h2 style="font-size:1.8rem;color:var(--blue-900);margin:8px 0 12px">Let's Talk About Your Pump Needs</h2>
+          <p style="color:var(--muted);margin-bottom:30px">Whether you need a single pump or a bulk order with custom specifications, our team is ready to help. Send us an inquiry and we'll respond with technical support and pricing within 24 hours.</p>
+          <div class="contact-item"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><b>Email</b><span>${SITE.email}</span></div></div>
+          <div class="contact-item"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8 10a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg></div><div><b>Phone</b><span>${SITE.phone}</span></div></div>
+          <div class="contact-item"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></div><div><b>WhatsApp</b><span>${SITE.whatsapp}</span></div></div>
+          <div class="contact-item"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><b>Factory Address</b><span>${SITE.address}</span></div></div>
+        </div>
+        <div class="form-card">
+          <h2>Send us an Inquiry</h2>
+          <p class="sub">Fill out the form below and our sales team will contact you within 24 hours.</p>
+          <div class="frow">
+            <div class="fgroup"><label>Full Name *</label><input type="text" id="cf_name" placeholder="John Smith"></div>
+            <div class="fgroup"><label>Email *</label><input type="email" id="cf_email" placeholder="john@company.com"></div>
+          </div>
+          <div class="frow">
+            <div class="fgroup"><label>Country / Region *</label><input type="text" id="cf_country" placeholder="United States"></div>
+            <div class="fgroup"><label>Quantity</label><input type="text" id="cf_qty" placeholder="e.g. 100 units / 500 pcs"></div>
+          </div>
+          <div class="fgroup"><label>Product of Interest</label><input type="text" id="cf_product" placeholder="e.g. WQ Submersible Pump, or describe your needs"></div>
+          <div class="fgroup"><label>Your Message *</label><textarea id="cf_msg" placeholder="Tell us about your project, application, technical requirements, or any questions you have..."></textarea></div>
+          <button class="btn btn-primary" style="width:100%;justify-content:center;font-size:1.02rem" onclick="submitInquiry()">Send Inquiry ${arrowR()}</button>
+          <div class="form-msg" id="formMsg"></div>
+        </div>
+      </div>
+    </div>
+  </section>`;
+}
+
+/* ===== EVENTS ===== */
+function bindEvents(){
+  document.querySelectorAll(".nav-links a").forEach(a=>a.addEventListener("click",()=>document.querySelector(".nav-links").classList.remove("open")));
+}
+function setCat(c){ state.cat=c; render(); }
+function setQuery(v){ state.query=v; render(); }
+function setImg(i){ state.imgIdx=i; render(); }
+function openLightbox(src){ document.getElementById("lightboxImg").src=src; document.getElementById("lightbox").classList.add("open"); }
+function closeLightbox(){ document.getElementById("lightbox").classList.remove("open"); }
+function submitInquiry(){
+  const name=document.getElementById("cf_name").value.trim();
+  const email=document.getElementById("cf_email").value.trim();
+  const country=document.getElementById("cf_country").value.trim();
+  const msg=document.getElementById("cf_msg").value.trim();
+  const box=document.getElementById("formMsg");
+  const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if(!name||!email||!country||!msg){ box.className="form-msg err"; box.textContent="Please fill in all required fields (Name, Email, Country, Message)."; return; }
+  if(!ok){ box.className="form-msg err"; box.textContent="Please enter a valid email address."; return; }
+  box.className="form-msg ok";
+  box.textContent="Thank you for your inquiry! We have received your message and will get back to you within 24 hours.";
+  document.querySelectorAll(".form-card input,.form-card textarea").forEach(i=>i.value="");
+}
+
+/* ===== INIT ===== */
+parseHash();
+render();
+</script>
+</body>
+</html>
